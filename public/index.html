@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <title>Página Ecommerce</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./index.js"></script>
+    <script>
+      function getCookie(cname) {
+        let name = cname + "=";
+        let cookieValue = document.cookie
+        let ca = document.cookie.split(';');
+        for(let i = 0; i < ca.length; i++) {
+          let c = ca[i];
+          while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+          }
+          if (c.indexOf(name) == 0) {
+            return decodeURIComponent(c.substring(name.length, c.length));
+          }
+        }
+        return "";
+      }
+
+      console.log("pasa")
+      window.onload = function(e){ 
+        console.log("no pasa")
+        const username = getCookie("username")
+        const avatar = getCookie("avatar")
+        const carrito_id = getCookie("carrito_id")
+        console.log(username)
+        console.log(avatar)
+        console.log(carrito_id)
+        if(username != ""){
+          document.getElementById("div_usuario").style.display='block'
+          document.getElementById("username").innerHTML=username
+          if(avatar != ""){
+            document.getElementById("avatar_img").style.display='block'
+            document.getElementById("avatar_img").src=avatar
+          }
+          if(carrito_id != ""){
+            document.getElementById("carrito").style.display='block'
+            // document.getElementById("carrito_id").href='/api/lista_carrito/'+carrito_id
+          }
+          document.getElementById("login").style.display='none'
+        }else{
+          document.getElementById("div_usuario").style.display='none'
+          document.getElementById("carrito").style.display='none'
+          document.getElementById("username").innerHTML=""
+          document.getElementById("login").style.display='block'
+        }
+      }
+    </script>
+</head>
+<body>
+  <style>
+    body {
+      background-image: url("https://img.freepik.com/vector-gratis/fondo-piedra-trazos-dorados_125540-130.jpg?w=826&t=st=1666573713~exp=1666574313~hmac=8b0573ff139c1fd3ff64f996e3df86b86f96d57584043ce6c0d82ca8862ff5dd");
+      background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  height: 100vh;
+    }
+    h1,h4{
+    color: rgba(56, 60, 71, 0.651);
+    }
+</style>
+
+<div style="display: none;" id="div_usuario">
+  <h3 style="background-color: rgba(64, 243, 73, 0.527); color: rgb(47, 0, 100);">Bienvenido <span id="username"></span>
+  <img style="display: none;" id="avatar_img" src="" height="50" width="50">
+  <form action="/upload_avatar" method="post" enctype="multipart/form-data">
+      <label for="thumbnail">Avatar:</label>
+      <input type="file" id="thumbnail" name="thumbnail" required><br><br>
+      <input type="submit" value="Actualizar avatar">
+  </form>  
+  <a href="/logout">Salir</a></h1>
+</div>
+
+<div>
+  <div id="login" style="width: 400px;
+  background: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000;">
+    <h2 style="color: rgb(228, 237, 234);">Login</h2>
+    <form action="/login" method="post">
+        <label for="username">Email:</label>
+        <input type="email" id="username" name="username"><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+        <input type="submit" value="Acceder" action="/api/carrito" method="post">
+        <br><br>
+        <a style="width: 100%; background: #1f53c5; border: none; padding: 12px; color: white; margin: 16px 0; font-size: 16px;" href="register.html">Registrarse</a>
+    </form>  
+  </div>  
+  <br>
+  <br>
+  <br>
+  <!-- <div id="carrito">
+    <a style="width: 100%; background: #1f53c5; border: none; padding: 12px; color: white; margin: 16px 0; font-size: 16px;" href="/api/productos">Ver todos los productos:</a>
+    <br><br><br>
+    <a style="width: 100%; background: #1f53c5; border: none; padding: 12px; color: white; margin: 16px 0; font-size: 16px;" href="/api/lista_carrito/634e60388dc23b75bc23aeba">Ver carrito:</a>
+  </div> -->
+</div>    
+</body>
+</html>

@@ -1,0 +1,3377 @@
+[2022-10-17T20:43:23.457] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-17T20:43:24.243] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-17T20:47:52.589] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-17T20:47:53.377] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-17T20:49:02.659] [INFO] produccion - User Registration succesful
+[2022-10-17T20:49:02.720] [INFO] produccion - getDatos
+[2022-10-17T20:49:02.720] [INFO] produccion - entra al if
+[2022-10-17T20:49:02.721] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0
+}
+[2022-10-18T01:09:27.048] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("634e26f6006be74c2ec0f1b4"),
+    __v: 0
+  }
+]
+[2022-10-18T01:09:27.151] [INFO] produccion - getDatos
+[2022-10-18T01:09:27.152] [INFO] produccion - entra al if
+[2022-10-18T01:09:27.152] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0
+}
+[2022-10-18T01:12:13.785] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T01:12:14.653] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T02:50:16.108] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("634e3e98677a350cf63b68ab"),
+    __v: 0
+  }
+]
+[2022-10-18T02:50:16.227] [INFO] produccion - getDatos
+[2022-10-18T02:50:16.228] [INFO] produccion - entra al if
+[2022-10-18T02:50:16.228] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'perfil-avatar-hombre-icono-redondo_24640-14044.jpg'
+}
+[2022-10-18T02:50:58.168] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T02:50:59.371] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T02:51:07.899] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("634e3ecbe61f8aa44c8b362e"),
+    __v: 0
+  }
+]
+[2022-10-18T02:51:08.017] [INFO] produccion - getDatos
+[2022-10-18T02:51:08.017] [INFO] produccion - entra al if
+[2022-10-18T02:51:08.017] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'perfil-avatar-hombre-icono-redondo_24640-14044.jpg'
+}
+[2022-10-18T02:54:53.632] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T02:54:54.667] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T02:55:00.547] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("634e3fb49de8d7072cb073c6"),
+    __v: 0
+  }
+]
+[2022-10-18T02:55:00.680] [INFO] produccion - getDatos
+[2022-10-18T02:55:00.680] [INFO] produccion - entra al if
+[2022-10-18T02:55:00.680] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'perfil-avatar-hombre-icono-redondo_24640-14044.jpg'
+}
+[2022-10-18T02:56:19.531] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T02:56:20.317] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T02:56:21.859] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("634e40053d4e13878819cfa9"),
+    __v: 0
+  }
+]
+[2022-10-18T02:56:21.983] [INFO] produccion - getDatos
+[2022-10-18T02:56:21.983] [INFO] produccion - entra al if
+[2022-10-18T02:56:21.983] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'perfil-avatar-hombre-icono-redondo_24640-14044.jpg'
+}
+[2022-10-18T02:56:24.896] [INFO] produccion - logout1
+[2022-10-18T02:56:24.896] [INFO] produccion - logout2
+[2022-10-18T02:58:23.015] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("634e407e3d4e13878819cfb0"),
+    __v: 0
+  }
+]
+[2022-10-18T02:58:23.120] [INFO] produccion - getDatos
+[2022-10-18T02:58:23.120] [INFO] produccion - entra al if
+[2022-10-18T02:58:23.120] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'perfil-avatar-hombre-icono-redondo_24640-14044.jpg'
+}
+[2022-10-18T02:59:38.472] [INFO] produccion - logout1
+[2022-10-18T02:59:38.472] [INFO] produccion - logout2
+[2022-10-18T03:00:28.976] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("634e40fc3d4e13878819cfb7"),
+    __v: 0
+  }
+]
+[2022-10-18T03:00:29.105] [INFO] produccion - getDatos
+[2022-10-18T03:00:29.105] [INFO] produccion - entra al if
+[2022-10-18T03:00:29.105] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'perfil-avatar-hombre-icono-redondo_24640-14044.jpg'
+}
+[2022-10-18T03:00:46.571] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("634e410e3d4e13878819cfc0"),
+    __v: 0
+  }
+]
+[2022-10-18T03:00:46.688] [INFO] produccion - getDatos
+[2022-10-18T03:00:46.688] [INFO] produccion - entra al if
+[2022-10-18T03:00:46.688] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'perfil-avatar-hombre-icono-redondo_24640-14044.jpg'
+}
+[2022-10-18T04:22:01.144] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("634e54193d4e13878819cfe3"),
+    __v: 0
+  }
+]
+[2022-10-18T04:22:01.241] [INFO] produccion - getDatos
+[2022-10-18T04:22:01.241] [INFO] produccion - entra al if
+[2022-10-18T04:22:01.241] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'perfil-avatar-hombre-icono-redondo_24640-14044.jpg'
+}
+[2022-10-18T05:13:32.543] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T05:13:33.641] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T05:13:45.006] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("634e60388dc23b75bc23aeba"),
+    __v: 0
+  }
+]
+[2022-10-18T05:17:37.803] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("634e61218dc23b75bc23aebe"),
+    __v: 0
+  }
+]
+[2022-10-18T05:17:37.930] [INFO] produccion - getDatos
+[2022-10-18T05:17:37.930] [INFO] produccion - entra al if
+[2022-10-18T05:17:37.930] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'perfil-avatar-hombre-icono-redondo_24640-14044.jpg'
+}
+[2022-10-18T05:18:34.239] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T05:18:35.133] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T05:18:44.882] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("634e6164fea8b7c17a5761d4"),
+    __v: 0
+  }
+]
+[2022-10-18T05:18:44.994] [INFO] produccion - getDatos
+[2022-10-18T05:18:44.995] [INFO] produccion - entra al if
+[2022-10-18T05:18:44.995] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'perfil-avatar-hombre-icono-redondo_24640-14044.jpg'
+}
+[2022-10-18T06:19:52.241] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T06:19:53.967] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T06:19:58.000] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("634e6fbd724a84ff7929af8c"),
+    __v: 0
+  }
+]
+[2022-10-18T06:19:58.118] [INFO] produccion - getDatos
+[2022-10-18T06:19:58.118] [INFO] produccion - entra al if
+[2022-10-18T06:19:58.118] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'perfil-avatar-hombre-icono-redondo_24640-14044.jpg'
+}
+[2022-10-18T06:20:14.535] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T06:20:15.364] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T06:20:24.788] [INFO] produccion - logout1
+[2022-10-18T06:20:24.789] [INFO] produccion - logout2
+[2022-10-18T06:20:26.188] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("634e6fda66040bda065dd46c"),
+    __v: 0
+  }
+]
+[2022-10-18T06:20:26.296] [INFO] produccion - getDatos
+[2022-10-18T06:20:26.297] [INFO] produccion - entra al if
+[2022-10-18T06:20:26.297] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'perfil-avatar-hombre-icono-redondo_24640-14044.jpg'
+}
+[2022-10-18T06:21:11.845] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T06:21:12.656] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T06:42:03.299] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T06:42:04.300] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T06:42:17.560] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("634e74f9a8ed4228add21920"),
+    __v: 0
+  }
+]
+[2022-10-18T06:42:17.670] [INFO] produccion - getDatos
+[2022-10-18T06:42:17.670] [INFO] produccion - entra al if
+[2022-10-18T06:42:17.671] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'perfil-avatar-hombre-icono-redondo_24640-14044.jpg'
+}
+[2022-10-18T06:42:36.926] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("634e750ca8ed4228add21929"),
+    __v: 0
+  }
+]
+[2022-10-18T06:42:37.029] [INFO] produccion - getDatos
+[2022-10-18T06:42:37.029] [INFO] produccion - entra al if
+[2022-10-18T06:42:37.029] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'perfil-avatar-hombre-icono-redondo_24640-14044.jpg'
+}
+[2022-10-18T06:43:53.413] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T06:43:54.330] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T06:59:38.684] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T06:59:39.666] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T07:03:01.812] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T07:03:02.774] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T07:03:43.647] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T07:03:44.375] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T07:04:05.275] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T07:04:08.399] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T07:05:00.859] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T07:05:01.849] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T07:06:05.979] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T07:06:06.927] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T07:06:53.641] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T07:07:22.416] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T07:07:26.863] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T07:08:38.753] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T07:08:39.524] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T07:09:54.778] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T07:09:55.958] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T07:10:15.118] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T07:10:15.881] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T07:13:39.707] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T07:13:40.904] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T07:15:10.114] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T07:15:13.746] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T07:32:58.772] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T07:33:01.031] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T07:34:38.633] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T07:34:39.582] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T07:39:18.116] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T07:39:18.960] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T07:43:19.256] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T07:43:30.902] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T07:43:31.691] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T07:54:12.023] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T07:54:14.225] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T07:54:31.045] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T07:54:31.810] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T07:59:44.241] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T07:59:45.387] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T08:00:43.425] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T08:00:44.170] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T08:03:15.421] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T08:03:16.226] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T08:06:46.800] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T08:06:52.770] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T08:07:51.503] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T08:07:54.487] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T08:08:23.101] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T08:08:23.818] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T08:09:37.706] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T08:09:38.686] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T08:10:47.953] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T08:10:51.018] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T08:11:55.738] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T08:11:56.532] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T08:15:48.342] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T08:15:50.973] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T08:16:51.086] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T08:16:55.521] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T08:17:07.203] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T08:17:07.911] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T08:17:25.919] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T08:17:26.643] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T08:17:49.956] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T08:17:50.744] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T08:18:22.466] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T08:18:26.013] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T08:19:01.630] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T08:19:02.388] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T08:19:24.382] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T08:19:26.878] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T08:19:42.386] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T08:19:43.147] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T08:20:53.867] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T08:20:56.709] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T08:27:11.621] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T08:27:14.949] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T08:31:24.394] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T08:31:25.265] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T08:34:30.893] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T08:34:31.839] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T08:37:10.617] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T08:37:11.447] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T09:54:31.284] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T09:54:32.128] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T09:54:41.240] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T09:54:42.075] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T09:54:56.044] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T09:54:56.866] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T09:55:19.862] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T09:55:20.623] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T09:55:41.659] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T09:55:42.630] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T09:57:14.278] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T09:57:18.462] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T17:32:44.665] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T17:32:47.217] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T17:40:10.021] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T17:40:10.925] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T18:13:42.862] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T18:13:45.904] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T18:14:54.046] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T18:14:55.037] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-18T18:17:23.253] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T18:17:58.014] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-18T18:17:58.825] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-20T19:45:34.473] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-20T19:45:58.461] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-20T19:46:04.527] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-20T19:53:25.892] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-20T19:53:32.717] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-20T20:32:51.339] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-20T20:32:56.120] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-20T20:35:01.153] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-20T20:35:01.905] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-20T20:35:35.857] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-20T20:35:36.674] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-20T20:35:54.299] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-20T20:35:55.129] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-20T20:36:47.093] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-20T20:36:47.857] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-20T20:36:49.773] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6351db9196d14c02e2c5ef4b"),
+    __v: 0
+  }
+]
+[2022-10-20T20:36:49.896] [INFO] produccion - getDatos
+[2022-10-20T20:36:49.897] [INFO] produccion - entra al if
+[2022-10-20T20:36:49.897] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'perfil-avatar-hombre-icono-redondo_24640-14044.jpg'
+}
+[2022-10-20T21:17:08.590] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-20T21:17:09.373] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-20T21:19:26.328] [INFO] produccion - logout1
+[2022-10-20T21:19:26.330] [INFO] produccion - logout2
+[2022-10-20T21:19:35.846] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6351e597e9ab0561b77223e7"),
+    __v: 0
+  }
+]
+[2022-10-20T21:19:35.956] [INFO] produccion - getDatos
+[2022-10-20T21:19:35.956] [INFO] produccion - entra al if
+[2022-10-20T21:19:35.956] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'perfil-avatar-hombre-icono-redondo_24640-14044.jpg'
+}
+[2022-10-20T21:25:08.845] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6351e6e4e9ab0561b77223f0"),
+    __v: 0
+  }
+]
+[2022-10-20T21:25:08.948] [INFO] produccion - getDatos
+[2022-10-20T21:25:08.948] [INFO] produccion - entra al if
+[2022-10-20T21:25:08.948] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'perfil-avatar-hombre-icono-redondo_24640-14044.jpg'
+}
+[2022-10-20T21:26:48.276] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-20T21:26:48.985] [INFO] produccion - logout1
+[2022-10-20T21:26:48.987] [INFO] produccion - logout2
+[2022-10-20T21:26:49.223] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-20T21:26:50.580] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6351e74ac0e2f4238ab7e2a6"),
+    __v: 0
+  }
+]
+[2022-10-20T21:26:50.693] [INFO] produccion - getDatos
+[2022-10-20T21:26:50.693] [INFO] produccion - entra al if
+[2022-10-20T21:26:50.694] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'perfil-avatar-hombre-icono-redondo_24640-14044.jpg'
+}
+[2022-10-20T21:30:20.899] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-20T21:30:21.697] [INFO] produccion - logout1
+[2022-10-20T21:30:21.699] [INFO] produccion - logout2
+[2022-10-20T21:30:27.346] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-20T21:30:27.422] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6351e823437d23930b96b978"),
+    __v: 0
+  }
+]
+[2022-10-20T21:30:27.523] [INFO] produccion - getDatos
+[2022-10-20T21:30:27.523] [INFO] produccion - entra al if
+[2022-10-20T21:30:27.523] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'perfil-avatar-hombre-icono-redondo_24640-14044.jpg'
+}
+[2022-10-20T21:32:32.525] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-20T21:32:33.336] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-20T21:32:37.938] [INFO] produccion - logout1
+[2022-10-20T21:32:37.940] [INFO] produccion - logout2
+[2022-10-20T21:32:39.216] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6351e8a7123b9ab6810a9cc5"),
+    __v: 0
+  }
+]
+[2022-10-20T21:32:39.333] [INFO] produccion - getDatos
+[2022-10-20T21:32:39.333] [INFO] produccion - entra al if
+[2022-10-20T21:32:39.333] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'perfil-avatar-hombre-icono-redondo_24640-14044.jpg'
+}
+[2022-10-20T21:33:20.278] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-20T21:33:20.866] [INFO] produccion - logout1
+[2022-10-20T21:33:20.867] [INFO] produccion - logout2
+[2022-10-20T21:33:21.019] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-20T21:33:22.326] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6351e8d209d63ede44e48376"),
+    __v: 0
+  }
+]
+[2022-10-20T21:33:22.438] [INFO] produccion - getDatos
+[2022-10-20T21:33:22.438] [INFO] produccion - entra al if
+[2022-10-20T21:33:22.438] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'perfil-avatar-hombre-icono-redondo_24640-14044.jpg'
+}
+[2022-10-20T21:35:13.428] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-20T21:35:14.216] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-20T21:36:12.943] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-20T21:36:13.741] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-20T21:36:14.737] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6351e97e5674167587b0c7e2"),
+    __v: 0
+  }
+]
+[2022-10-20T21:36:14.854] [INFO] produccion - getDatos
+[2022-10-20T21:36:14.854] [INFO] produccion - entra al if
+[2022-10-20T21:36:14.854] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'perfil-avatar-hombre-icono-redondo_24640-14044.jpg'
+}
+[2022-10-20T21:39:26.497] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6351ea3e5674167587b0c7ea"),
+    __v: 0
+  }
+]
+[2022-10-20T21:39:26.603] [INFO] produccion - getDatos
+[2022-10-20T21:39:26.604] [INFO] produccion - entra al if
+[2022-10-20T21:39:26.604] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'perfil-avatar-hombre-icono-redondo_24640-14044.jpg'
+}
+[2022-10-20T21:43:54.237] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6351eb4a5674167587b0c7f2"),
+    __v: 0
+  }
+]
+[2022-10-20T21:43:54.354] [INFO] produccion - getDatos
+[2022-10-20T21:43:54.354] [INFO] produccion - entra al if
+[2022-10-20T21:43:54.354] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'perfil-avatar-hombre-icono-redondo_24640-14044.jpg'
+}
+[2022-10-20T21:44:01.642] [INFO] produccion - logout1
+[2022-10-20T21:44:01.643] [INFO] produccion - logout2
+[2022-10-20T21:45:13.712] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-20T21:45:14.552] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-20T21:45:18.870] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6351eb9e42f9f5ed587f2fa3"),
+    __v: 0
+  }
+]
+[2022-10-20T21:45:18.996] [INFO] produccion - getDatos
+[2022-10-20T21:45:18.996] [INFO] produccion - entra al if
+[2022-10-20T21:45:18.997] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'perfil-avatar-hombre-icono-redondo_24640-14044.jpg'
+}
+[2022-10-20T21:45:47.566] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-20T21:45:48.309] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-20T21:49:08.936] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-20T21:49:09.863] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-20T21:49:55.585] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-20T21:49:56.303] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-21T01:18:56.974] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-21T01:19:00.521] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-21T23:32:23.484] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-21T23:32:24.294] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-21T23:32:29.722] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6353563d9e458335edd02efd"),
+    __v: 0
+  }
+]
+[2022-10-21T23:32:29.836] [INFO] produccion - getDatos
+[2022-10-21T23:32:29.836] [INFO] produccion - entra al if
+[2022-10-21T23:32:29.836] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'perfil-avatar-hombre-icono-redondo_24640-14044.jpg'
+}
+[2022-10-21T23:33:48.103] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-21T23:33:50.317] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-21T23:35:09.294] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-21T23:35:11.826] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-21T23:35:38.087] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-21T23:35:38.857] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-21T23:37:01.853] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-21T23:37:07.726] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-21T23:41:56.590] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-21T23:42:02.492] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-21T23:44:13.206] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-21T23:44:14.039] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-22T01:23:56.237] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-22T01:23:57.655] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-22T01:24:07.239] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6353706776145c762719386c"),
+    __v: 0
+  }
+]
+[2022-10-22T01:24:07.355] [INFO] produccion - getDatos
+[2022-10-22T01:24:07.356] [INFO] produccion - entra al if
+[2022-10-22T01:24:07.356] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'perfil-avatar-hombre-icono-redondo_24640-14044.jpg'
+}
+[2022-10-22T01:24:36.319] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-22T01:24:37.777] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-22T01:26:28.052] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-22T01:26:31.927] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-22T01:28:02.787] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-22T01:28:06.025] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-22T01:29:17.394] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-22T01:29:18.366] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-22T04:52:50.372] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-22T04:52:52.121] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-22T04:53:46.603] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-22T04:53:47.514] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-22T04:54:29.859] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-22T04:56:53.856] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-22T04:56:54.769] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-22T04:58:35.387] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-22T04:58:36.240] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-22T05:00:07.209] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-22T05:00:11.759] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-22T05:04:20.129] [ERROR] produccion - user not found prueba1@prueba.com1
+[2022-10-22T05:04:20.129] [ERROR] produccion - message user not found
+[2022-10-22T05:04:37.167] [INFO] produccion - User already exists
+[2022-10-22T05:04:37.167] [INFO] produccion - message User Already Exists
+[2022-10-22T05:04:48.558] [ERROR] produccion - Invalid password
+[2022-10-22T05:04:48.558] [ERROR] produccion - mensage Invalid Password
+[2022-10-22T05:04:55.506] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6353a42726a7b952489067d4"),
+    __v: 0
+  }
+]
+[2022-10-22T05:04:55.622] [INFO] produccion - getDatos
+[2022-10-22T05:04:55.622] [INFO] produccion - entra al if
+[2022-10-22T05:04:55.622] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'perfil-avatar-hombre-icono-redondo_24640-14044.jpg'
+}
+[2022-10-22T05:10:17.282] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-22T05:10:18.257] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-22T05:11:28.588] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-22T05:11:29.400] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-22T05:12:52.265] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-22T05:12:53.133] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-22T05:13:49.345] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-22T05:13:50.211] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-22T05:14:12.530] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-22T05:14:13.451] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-22T05:14:51.013] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-22T05:14:51.853] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-22T05:16:59.133] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-22T05:17:00.065] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-22T05:19:41.593] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-22T05:19:42.542] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-22T05:20:25.817] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-22T05:21:34.165] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-22T05:22:00.685] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-22T05:22:01.544] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-22T05:22:35.566] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-22T05:22:36.456] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-22T20:00:34.109] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6354761271f67ff2c6fc48b5"),
+    __v: 0
+  }
+]
+[2022-10-22T20:00:34.239] [INFO] produccion - getDatos
+[2022-10-22T20:00:34.239] [INFO] produccion - entra al if
+[2022-10-22T20:00:34.239] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'perfil-avatar-hombre-icono-redondo_24640-14044.jpg'
+}
+[2022-10-22T20:02:22.421] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-22T20:02:23.502] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-22T20:02:31.949] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("63547687ec193b872e1f6753"),
+    __v: 0
+  }
+]
+[2022-10-22T20:02:32.072] [INFO] produccion - getDatos
+[2022-10-22T20:02:32.072] [INFO] produccion - entra al if
+[2022-10-22T20:02:32.072] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'perfil-avatar-hombre-icono-redondo_24640-14044.jpg'
+}
+[2022-10-22T20:03:12.626] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-22T20:03:13.418] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-22T20:03:18.275] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("635476b6bbd4c4002538bc91"),
+    __v: 0
+  }
+]
+[2022-10-22T20:03:18.398] [INFO] produccion - getDatos
+[2022-10-22T20:03:18.398] [INFO] produccion - entra al if
+[2022-10-22T20:03:18.398] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'perfil-avatar-hombre-icono-redondo_24640-14044.jpg'
+}
+[2022-10-22T20:06:17.521] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("63547769bbd4c4002538bca7"),
+    __v: 0
+  }
+]
+[2022-10-22T20:06:17.626] [INFO] produccion - getDatos
+[2022-10-22T20:06:17.627] [INFO] produccion - entra al if
+[2022-10-22T20:06:17.627] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'perfil-avatar-hombre-icono-redondo_24640-14044.jpg'
+}
+[2022-10-22T20:14:00.683] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("63547938bbd4c4002538bcbb"),
+    __v: 0
+  }
+]
+[2022-10-22T20:14:00.779] [INFO] produccion - getDatos
+[2022-10-22T20:14:00.779] [INFO] produccion - entra al if
+[2022-10-22T20:14:00.779] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'perfil-avatar-hombre-icono-redondo_24640-14044.jpg'
+}
+[2022-10-22T22:00:41.817] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-22T22:00:42.764] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-22T22:00:44.124] [INFO] produccion - logout1
+[2022-10-22T22:00:44.125] [INFO] produccion - logout2
+[2022-10-22T22:00:46.091] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6354923e74a1bf9e11b5c88c"),
+    __v: 0
+  }
+]
+[2022-10-22T22:00:46.197] [INFO] produccion - getDatos
+[2022-10-22T22:00:46.197] [INFO] produccion - entra al if
+[2022-10-22T22:00:46.197] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: '240874361_10159531163576397_2330076036461820362_n.jpg'
+}
+[2022-10-23T02:05:54.526] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T02:05:55.595] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T02:05:56.541] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6354cbb4afe5d7afd50e579f"),
+    __v: 0
+  }
+]
+[2022-10-23T02:05:56.665] [INFO] produccion - getDatos
+[2022-10-23T02:05:56.665] [INFO] produccion - entra al if
+[2022-10-23T02:05:56.666] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-23T02:10:27.845] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T02:10:30.705] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T02:10:38.167] [INFO] produccion - logout1
+[2022-10-23T02:10:38.168] [INFO] produccion - logout2
+[2022-10-23T02:10:39.853] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6354cccfc29da3b9975d1f4f"),
+    __v: 0
+  }
+]
+[2022-10-23T02:10:39.979] [INFO] produccion - getDatos
+[2022-10-23T02:10:39.980] [INFO] produccion - entra al if
+[2022-10-23T02:10:39.980] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-23T02:12:02.939] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T02:12:04.577] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T02:12:19.953] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T02:12:20.739] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T02:12:54.388] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T02:12:55.179] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T02:14:25.705] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T02:14:27.888] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T02:19:30.838] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T02:19:35.062] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T02:20:06.891] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T02:20:07.858] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T02:22:01.295] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T02:22:02.183] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T02:22:08.314] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6354cf80c58cd7da5a540b33"),
+    __v: 0
+  }
+]
+[2022-10-23T02:22:08.429] [INFO] produccion - getDatos
+[2022-10-23T02:22:08.429] [INFO] produccion - entra al if
+[2022-10-23T02:22:08.429] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-23T02:22:37.713] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T02:22:38.496] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T02:22:44.017] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6354cfa344ef05af66865986"),
+    __v: 0
+  }
+]
+[2022-10-23T02:22:44.128] [INFO] produccion - getDatos
+[2022-10-23T02:22:44.128] [INFO] produccion - entra al if
+[2022-10-23T02:22:44.128] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-23T02:23:25.377] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T02:23:26.324] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T02:23:30.139] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6354cfd21fa863923fa590f1"),
+    __v: 0
+  }
+]
+[2022-10-23T02:23:30.290] [INFO] produccion - getDatos
+[2022-10-23T02:23:30.290] [INFO] produccion - entra al if
+[2022-10-23T02:23:30.290] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-23T02:24:21.572] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T02:24:22.575] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T02:24:29.105] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6354d00dd9e2ed17140ff33f"),
+    __v: 0
+  }
+]
+[2022-10-23T02:24:29.216] [INFO] produccion - getDatos
+[2022-10-23T02:24:29.216] [INFO] produccion - entra al if
+[2022-10-23T02:24:29.216] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-23T02:26:31.554] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T02:26:32.456] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T02:26:40.078] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6354d0909dec484facaae68e"),
+    __v: 0
+  }
+]
+[2022-10-23T02:26:40.209] [INFO] produccion - getDatos
+[2022-10-23T02:26:40.209] [INFO] produccion - entra al if
+[2022-10-23T02:26:40.209] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-23T02:26:49.242] [ERROR] produccion - user not found prueba2@prueba.com
+[2022-10-23T02:26:49.242] [ERROR] produccion - message user not found
+[2022-10-23T02:27:08.297] [INFO] produccion - User Registration succesful
+[2022-10-23T02:27:08.354] [INFO] produccion - getDatos
+[2022-10-23T02:27:08.355] [INFO] produccion - entra al if
+[2022-10-23T02:27:08.355] [INFO] produccion - {
+  _id: new ObjectId("6354d0ac9dec484facaae69d"),
+  username: 'prueba2@prueba.com',
+  password: '$2a$10$Tt4mXAEuz5MDTcdzl2oxR.O1WdGPomEkMIkRIqZlqjYVD9Dq7e9jO',
+  name: 'prueba',
+  surname: '2',
+  phone: 2,
+  __v: 0
+}
+[2022-10-23T02:28:38.734] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T02:28:39.680] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T02:28:43.235] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6354d10b5fe5d917ddf0310b"),
+    __v: 0
+  }
+]
+[2022-10-23T02:28:43.351] [INFO] produccion - getDatos
+[2022-10-23T02:28:43.351] [INFO] produccion - entra al if
+[2022-10-23T02:28:43.351] [INFO] produccion - {
+  _id: new ObjectId("6354d0ac9dec484facaae69d"),
+  username: 'prueba2@prueba.com',
+  password: '$2a$10$Tt4mXAEuz5MDTcdzl2oxR.O1WdGPomEkMIkRIqZlqjYVD9Dq7e9jO',
+  name: 'prueba',
+  surname: '2',
+  phone: 2,
+  __v: 0
+}
+[2022-10-23T02:29:30.630] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T02:29:31.426] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T02:29:33.152] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6354d13df25d08d3f0bdabbc"),
+    __v: 0
+  }
+]
+[2022-10-23T02:29:33.265] [INFO] produccion - getDatos
+[2022-10-23T02:29:33.265] [INFO] produccion - entra al if
+[2022-10-23T02:29:33.265] [INFO] produccion - {
+  _id: new ObjectId("6354d0ac9dec484facaae69d"),
+  username: 'prueba2@prueba.com',
+  password: '$2a$10$Tt4mXAEuz5MDTcdzl2oxR.O1WdGPomEkMIkRIqZlqjYVD9Dq7e9jO',
+  name: 'prueba',
+  surname: '2',
+  phone: 2,
+  __v: 0
+}
+[2022-10-23T02:33:31.816] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6354d22bf25d08d3f0bdabc8"),
+    __v: 0
+  }
+]
+[2022-10-23T02:33:31.935] [INFO] produccion - getDatos
+[2022-10-23T02:33:31.935] [INFO] produccion - entra al if
+[2022-10-23T02:33:31.935] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-23T02:37:51.074] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T02:37:52.160] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T02:37:57.447] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6354d3359564473874629d69"),
+    __v: 0
+  }
+]
+[2022-10-23T02:37:57.562] [INFO] produccion - getDatos
+[2022-10-23T02:37:57.562] [INFO] produccion - entra al if
+[2022-10-23T02:37:57.562] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-23T02:39:31.107] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T02:39:32.283] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T02:39:36.113] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6354d398fe96e8baa9cb7160"),
+    __v: 0
+  }
+]
+[2022-10-23T02:39:36.231] [INFO] produccion - getDatos
+[2022-10-23T02:39:36.231] [INFO] produccion - entra al if
+[2022-10-23T02:39:36.231] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-23T02:40:12.368] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T02:40:13.242] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T02:44:24.764] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T02:44:26.195] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T02:50:28.940] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T02:50:32.715] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T02:52:07.043] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T02:52:08.081] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T02:52:46.340] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T02:52:47.144] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T02:54:21.896] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T02:54:24.138] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T02:54:31.065] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6354d717662d65a25a1a5141"),
+    __v: 0
+  }
+]
+[2022-10-23T02:54:31.182] [INFO] produccion - getDatos
+[2022-10-23T02:54:31.183] [INFO] produccion - entra al if
+[2022-10-23T02:54:31.183] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-23T02:57:38.885] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T02:57:39.735] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T02:57:50.746] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6354d7de93c9b346da5f0cb5"),
+    __v: 0
+  }
+]
+[2022-10-23T02:57:50.858] [INFO] produccion - getDatos
+[2022-10-23T02:57:50.858] [INFO] produccion - entra al if
+[2022-10-23T02:57:50.858] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-23T03:02:54.435] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T03:02:55.538] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T03:03:23.973] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T03:03:24.757] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T03:04:00.647] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T03:04:01.824] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T03:04:42.611] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T03:04:43.446] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T03:05:25.013] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T03:05:26.887] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T03:07:33.431] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T03:07:34.377] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T03:08:17.877] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T03:08:18.650] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T03:08:45.253] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T03:08:46.195] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T03:09:45.137] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T03:09:45.952] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T03:11:06.599] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T03:11:07.547] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T03:12:21.406] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T03:12:22.302] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T03:12:56.339] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T03:12:57.189] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T03:14:02.162] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T03:14:03.176] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T03:14:21.042] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T03:14:21.919] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T06:38:59.270] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T06:39:00.233] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T06:39:45.189] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T06:39:45.985] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T06:44:46.604] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T06:44:47.590] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T06:50:04.124] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T06:50:05.097] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T06:50:10.497] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("63550e5257dc4b0d8aa0c23b"),
+    __v: 0
+  }
+]
+[2022-10-23T06:50:10.610] [INFO] produccion - getDatos
+[2022-10-23T06:50:10.610] [INFO] produccion - entra al if
+[2022-10-23T06:50:10.610] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-23T06:51:25.616] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T06:51:26.534] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T07:02:30.962] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T07:02:31.847] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T07:12:50.402] [INFO] produccion - User already exists
+[2022-10-23T07:12:50.403] [INFO] produccion - message User Already Exists
+[2022-10-23T07:12:55.175] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("635513a7c60662d9f1dea563"),
+    __v: 0
+  }
+]
+[2022-10-23T07:12:55.281] [INFO] produccion - getDatos
+[2022-10-23T07:12:55.282] [INFO] produccion - entra al if
+[2022-10-23T07:12:55.282] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-23T07:12:59.817] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("635513abc60662d9f1dea56d"),
+    __v: 0
+  }
+]
+[2022-10-23T07:12:59.915] [INFO] produccion - getDatos
+[2022-10-23T07:12:59.915] [INFO] produccion - entra al if
+[2022-10-23T07:12:59.915] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-23T07:13:14.437] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("635513bac60662d9f1dea577"),
+    __v: 0
+  }
+]
+[2022-10-23T07:13:14.547] [INFO] produccion - getDatos
+[2022-10-23T07:13:14.547] [INFO] produccion - entra al if
+[2022-10-23T07:13:14.547] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-23T07:26:46.630] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T07:26:47.563] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T07:27:10.086] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T07:27:10.946] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T07:27:13.231] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("63551701a2b50f325841b45e"),
+    __v: 0
+  }
+]
+[2022-10-23T07:27:13.342] [INFO] produccion - getDatos
+[2022-10-23T07:27:13.343] [INFO] produccion - entra al if
+[2022-10-23T07:27:13.343] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-23T07:27:25.392] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6355170da2b50f325841b466"),
+    __v: 0
+  }
+]
+[2022-10-23T07:34:18.406] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T07:34:19.346] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T07:36:05.568] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T07:36:06.396] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T07:36:10.138] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6355191a3d37e8f944d4b971"),
+    __v: 0
+  }
+]
+[2022-10-23T07:36:10.255] [INFO] produccion - getDatos
+[2022-10-23T07:36:10.255] [INFO] produccion - entra al if
+[2022-10-23T07:36:10.256] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-23T07:37:49.547] [INFO] produccion - carrito borrado
+[2022-10-23T07:37:59.573] [INFO] produccion - carrito borrado
+[2022-10-23T07:38:06.310] [INFO] produccion - carrito borrado
+[2022-10-23T07:38:13.093] [INFO] produccion - carrito borrado
+[2022-10-23T07:38:24.353] [INFO] produccion - carrito borrado
+[2022-10-23T07:38:32.168] [INFO] produccion - carrito borrado
+[2022-10-23T07:38:40.156] [INFO] produccion - carrito borrado
+[2022-10-23T07:38:48.555] [INFO] produccion - carrito borrado
+[2022-10-23T07:38:54.062] [INFO] produccion - carrito borrado
+[2022-10-23T07:38:59.877] [INFO] produccion - carrito borrado
+[2022-10-23T07:39:05.997] [INFO] produccion - carrito borrado
+[2022-10-23T07:39:20.647] [INFO] produccion - carrito borrado
+[2022-10-23T07:39:31.733] [INFO] produccion - carrito borrado
+[2022-10-23T07:39:37.366] [INFO] produccion - carrito borrado
+[2022-10-23T07:39:42.900] [INFO] produccion - carrito borrado
+[2022-10-23T07:39:49.988] [INFO] produccion - carrito borrado
+[2022-10-23T07:40:03.516] [INFO] produccion - carrito borrado
+[2022-10-23T07:40:09.827] [INFO] produccion - carrito borrado
+[2022-10-23T07:40:14.679] [INFO] produccion - carrito borrado
+[2022-10-23T07:40:19.960] [INFO] produccion - carrito borrado
+[2022-10-23T07:40:26.596] [INFO] produccion - carrito borrado
+[2022-10-23T07:40:32.113] [INFO] produccion - carrito borrado
+[2022-10-23T07:40:37.946] [INFO] produccion - carrito borrado
+[2022-10-23T07:40:43.688] [INFO] produccion - carrito borrado
+[2022-10-23T07:40:50.738] [INFO] produccion - carrito borrado
+[2022-10-23T07:40:59.202] [INFO] produccion - carrito borrado
+[2022-10-23T07:41:04.511] [INFO] produccion - carrito borrado
+[2022-10-23T07:41:10.243] [INFO] produccion - carrito borrado
+[2022-10-23T07:41:17.346] [INFO] produccion - carrito borrado
+[2022-10-23T07:41:22.362] [INFO] produccion - carrito borrado
+[2022-10-23T07:41:28.055] [INFO] produccion - carrito borrado
+[2022-10-23T07:41:33.534] [INFO] produccion - carrito borrado
+[2022-10-23T07:41:43.840] [INFO] produccion - carrito borrado
+[2022-10-23T07:41:48.938] [INFO] produccion - carrito borrado
+[2022-10-23T07:41:55.110] [INFO] produccion - carrito borrado
+[2022-10-23T07:42:01.240] [INFO] produccion - carrito borrado
+[2022-10-23T07:42:06.602] [INFO] produccion - carrito borrado
+[2022-10-23T07:42:11.844] [INFO] produccion - carrito borrado
+[2022-10-23T07:42:47.575] [INFO] produccion - carrito borrado
+[2022-10-23T07:42:53.869] [INFO] produccion - carrito borrado
+[2022-10-23T07:43:00.053] [INFO] produccion - carrito borrado
+[2022-10-23T07:43:07.450] [INFO] produccion - carrito borrado
+[2022-10-23T07:43:13.772] [INFO] produccion - carrito borrado
+[2022-10-23T07:43:25.680] [INFO] produccion - carrito borrado
+[2022-10-23T07:43:31.126] [INFO] produccion - carrito borrado
+[2022-10-23T07:43:36.823] [INFO] produccion - carrito borrado
+[2022-10-23T07:43:44.066] [INFO] produccion - carrito borrado
+[2022-10-23T07:43:50.074] [INFO] produccion - carrito borrado
+[2022-10-23T07:43:55.935] [INFO] produccion - carrito borrado
+[2022-10-23T07:44:01.706] [INFO] produccion - carrito borrado
+[2022-10-23T07:44:08.365] [INFO] produccion - carrito borrado
+[2022-10-23T07:44:13.755] [INFO] produccion - carrito borrado
+[2022-10-23T07:44:21.377] [INFO] produccion - carrito borrado
+[2022-10-23T07:44:26.445] [INFO] produccion - carrito borrado
+[2022-10-23T07:44:31.555] [INFO] produccion - carrito borrado
+[2022-10-23T07:44:37.143] [INFO] produccion - carrito borrado
+[2022-10-23T07:44:42.402] [INFO] produccion - carrito borrado
+[2022-10-23T07:44:49.595] [INFO] produccion - carrito borrado
+[2022-10-23T07:44:56.422] [INFO] produccion - carrito borrado
+[2022-10-23T07:45:01.983] [INFO] produccion - carrito borrado
+[2022-10-23T07:45:07.763] [INFO] produccion - carrito borrado
+[2022-10-23T07:45:16.084] [INFO] produccion - carrito borrado
+[2022-10-23T07:45:21.031] [INFO] produccion - carrito borrado
+[2022-10-23T07:45:26.314] [INFO] produccion - carrito borrado
+[2022-10-23T07:45:31.224] [INFO] produccion - carrito borrado
+[2022-10-23T07:45:37.842] [INFO] produccion - carrito borrado
+[2022-10-23T07:45:43.362] [INFO] produccion - carrito borrado
+[2022-10-23T07:45:48.694] [INFO] produccion - carrito borrado
+[2022-10-23T07:45:57.695] [INFO] produccion - carrito borrado
+[2022-10-23T07:46:03.044] [INFO] produccion - carrito borrado
+[2022-10-23T07:46:08.155] [INFO] produccion - carrito borrado
+[2022-10-23T07:46:13.178] [INFO] produccion - carrito borrado
+[2022-10-23T07:46:18.708] [INFO] produccion - carrito borrado
+[2022-10-23T07:46:26.204] [INFO] produccion - carrito borrado
+[2022-10-23T07:46:31.308] [INFO] produccion - carrito borrado
+[2022-10-23T07:46:46.347] [INFO] produccion - carrito borrado
+[2022-10-23T07:46:51.689] [INFO] produccion - carrito borrado
+[2022-10-23T07:46:57.166] [INFO] produccion - carrito borrado
+[2022-10-23T07:47:04.715] [INFO] produccion - carrito borrado
+[2022-10-23T07:47:10.962] [INFO] produccion - carrito borrado
+[2022-10-23T07:47:15.887] [INFO] produccion - carrito borrado
+[2022-10-23T07:47:24.448] [INFO] produccion - carrito borrado
+[2022-10-23T07:47:29.006] [INFO] produccion - carrito borrado
+[2022-10-23T07:47:35.424] [INFO] produccion - carrito borrado
+[2022-10-23T07:47:41.395] [INFO] produccion - carrito borrado
+[2022-10-23T07:48:12.537] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("63551bec3d37e8f944d4b9ea"),
+    __v: 0
+  }
+]
+[2022-10-23T07:48:12.639] [INFO] produccion - getDatos
+[2022-10-23T07:48:12.639] [INFO] produccion - entra al if
+[2022-10-23T07:48:12.639] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-23T07:56:05.045] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T07:56:06.053] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T08:14:16.382] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T08:14:17.308] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T08:16:37.883] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T08:16:38.913] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T08:18:25.557] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T08:18:28.901] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T08:20:53.688] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T08:20:57.604] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T08:28:11.286] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6355254be05af1bed71d201d"),
+    __v: 0
+  }
+]
+[2022-10-23T08:28:11.397] [INFO] produccion - getDatos
+[2022-10-23T08:28:11.397] [INFO] produccion - entra al if
+[2022-10-23T08:28:11.397] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-23T08:31:12.227] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("63552600e05af1bed71d2035"),
+    __v: 0
+  }
+]
+[2022-10-23T08:31:12.328] [INFO] produccion - getDatos
+[2022-10-23T08:31:12.328] [INFO] produccion - entra al if
+[2022-10-23T08:31:12.328] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-23T08:33:42.392] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T08:33:44.526] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T08:46:55.511] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T08:46:57.720] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T09:08:52.816] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("63552ed4244bf46773de7e4f"),
+    __v: 0
+  }
+]
+[2022-10-23T09:08:52.927] [INFO] produccion - getDatos
+[2022-10-23T09:08:52.927] [INFO] produccion - entra al if
+[2022-10-23T09:08:52.927] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-23T09:11:13.969] [INFO] produccion - User already exists
+[2022-10-23T09:11:13.969] [INFO] produccion - message User Already Exists
+[2022-10-23T09:11:20.646] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("63552f68244bf46773de7e77"),
+    __v: 0
+  }
+]
+[2022-10-23T09:11:20.745] [INFO] produccion - getDatos
+[2022-10-23T09:11:20.745] [INFO] produccion - entra al if
+[2022-10-23T09:11:20.745] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-23T09:19:15.258] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T09:19:20.949] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T20:37:08.242] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T20:37:09.127] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T20:58:50.702] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T20:58:51.574] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T21:23:01.714] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T21:23:02.681] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T21:23:07.687] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6355daeb047f0e160e08b3f1"),
+    __v: 0
+  }
+]
+[2022-10-23T21:23:07.802] [INFO] produccion - getDatos
+[2022-10-23T21:23:07.803] [INFO] produccion - entra al if
+[2022-10-23T21:23:07.803] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-23T21:55:13.577] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T21:55:14.451] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T21:55:18.845] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6355e2763d4393297d12fdf0"),
+    __v: 0
+  }
+]
+[2022-10-23T21:55:18.964] [INFO] produccion - getDatos
+[2022-10-23T21:55:18.965] [INFO] produccion - entra al if
+[2022-10-23T21:55:18.965] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-23T21:56:38.029] [INFO] produccion - carrito borrado
+[2022-10-23T21:56:47.410] [INFO] produccion - carrito borrado
+[2022-10-23T21:56:51.983] [INFO] produccion - carrito borrado
+[2022-10-23T21:56:57.020] [INFO] produccion - carrito borrado
+[2022-10-23T21:57:02.224] [INFO] produccion - carrito borrado
+[2022-10-23T21:57:08.253] [INFO] produccion - carrito borrado
+[2022-10-23T21:57:14.269] [INFO] produccion - carrito borrado
+[2022-10-23T21:57:20.205] [INFO] produccion - carrito borrado
+[2022-10-23T21:57:24.602] [INFO] produccion - carrito borrado
+[2022-10-23T21:57:29.941] [INFO] produccion - carrito borrado
+[2022-10-23T21:57:35.790] [INFO] produccion - carrito borrado
+[2022-10-23T21:57:41.234] [INFO] produccion - carrito borrado
+[2022-10-23T21:57:51.373] [INFO] produccion - carrito borrado
+[2022-10-23T21:57:57.915] [INFO] produccion - carrito borrado
+[2022-10-23T21:58:17.054] [INFO] produccion - carrito borrado
+[2022-10-23T21:58:21.558] [INFO] produccion - carrito borrado
+[2022-10-23T21:58:28.726] [INFO] produccion - carrito borrado
+[2022-10-23T21:58:34.184] [INFO] produccion - carrito borrado
+[2022-10-23T21:58:39.479] [INFO] produccion - carrito borrado
+[2022-10-23T21:58:45.201] [INFO] produccion - carrito borrado
+[2022-10-23T21:58:52.194] [INFO] produccion - carrito borrado
+[2022-10-23T21:58:59.603] [INFO] produccion - carrito borrado
+[2022-10-23T21:59:07.044] [INFO] produccion - carrito borrado
+[2022-10-23T21:59:15.927] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6355e3633d4393297d12fe1f"),
+    __v: 0
+  }
+]
+[2022-10-23T21:59:16.027] [INFO] produccion - getDatos
+[2022-10-23T21:59:16.027] [INFO] produccion - entra al if
+[2022-10-23T21:59:16.027] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-23T22:02:45.381] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T22:02:46.350] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T22:02:52.653] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6355e43c2102ab9ebf8203dd"),
+    __v: 0
+  }
+]
+[2022-10-23T22:02:52.763] [INFO] produccion - getDatos
+[2022-10-23T22:02:52.763] [INFO] produccion - entra al if
+[2022-10-23T22:02:52.763] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-23T22:03:05.489] [INFO] produccion - carrito borrado
+[2022-10-23T22:03:10.918] [INFO] produccion - carrito borrado
+[2022-10-23T22:03:17.628] [INFO] produccion - carrito borrado
+[2022-10-23T22:03:27.534] [INFO] produccion - logout1
+[2022-10-23T22:03:27.534] [INFO] produccion - logout2
+[2022-10-23T22:03:32.382] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6355e4642102ab9ebf8203f5"),
+    __v: 0
+  }
+]
+[2022-10-23T22:03:32.487] [INFO] produccion - getDatos
+[2022-10-23T22:03:32.487] [INFO] produccion - entra al if
+[2022-10-23T22:03:32.487] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-23T22:11:48.638] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T22:11:49.653] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T22:11:55.845] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6355e65bb7262f53e817ab06"),
+    __v: 0
+  }
+]
+[2022-10-23T22:11:55.971] [INFO] produccion - getDatos
+[2022-10-23T22:11:55.971] [INFO] produccion - entra al if
+[2022-10-23T22:11:55.971] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-23T22:14:09.174] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T22:14:10.130] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T22:14:50.090] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T22:14:50.956] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T22:16:35.085] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T22:16:36.045] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T22:19:07.831] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T22:19:08.865] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T22:19:13.069] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6355e811bf9e9cdb29bfc249"),
+    __v: 0
+  }
+]
+[2022-10-23T22:19:13.199] [INFO] produccion - getDatos
+[2022-10-23T22:19:13.199] [INFO] produccion - entra al if
+[2022-10-23T22:19:13.199] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-23T22:36:21.550] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T22:36:22.428] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T22:44:05.307] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T22:44:06.383] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T22:45:17.370] [INFO] produccion - carrito borrado
+[2022-10-23T22:45:24.345] [INFO] produccion - carrito borrado
+[2022-10-23T22:45:30.094] [INFO] produccion - carrito borrado
+[2022-10-23T22:45:37.056] [INFO] produccion - carrito borrado
+[2022-10-23T22:45:43.398] [INFO] produccion - carrito borrado
+[2022-10-23T22:45:52.671] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6355ee50334bc7a05c8c5b61"),
+    __v: 0
+  }
+]
+[2022-10-23T22:45:52.799] [INFO] produccion - getDatos
+[2022-10-23T22:45:52.799] [INFO] produccion - entra al if
+[2022-10-23T22:45:52.799] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-23T22:45:52.975] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6355ee50334bc7a05c8c5b67"),
+    __v: 0
+  }
+]
+[2022-10-23T22:46:06.327] [INFO] produccion - logout1
+[2022-10-23T22:46:06.327] [INFO] produccion - logout2
+[2022-10-23T22:46:10.781] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6355ee62334bc7a05c8c5b74"),
+    __v: 0
+  }
+]
+[2022-10-23T22:46:10.958] [INFO] produccion - getDatos
+[2022-10-23T22:46:10.959] [INFO] produccion - entra al if
+[2022-10-23T22:46:10.959] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-23T22:46:11.099] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6355ee63334bc7a05c8c5b7a"),
+    __v: 0
+  }
+]
+[2022-10-23T22:47:38.472] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6355eeba334bc7a05c8c5b85"),
+    __v: 0
+  }
+]
+[2022-10-23T22:47:38.760] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6355eeba334bc7a05c8c5b8c"),
+    __v: 0
+  }
+]
+[2022-10-23T22:47:48.452] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6355eec4334bc7a05c8c5b93"),
+    __v: 0
+  }
+]
+[2022-10-23T22:47:51.215] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6355eec7334bc7a05c8c5b9c"),
+    __v: 0
+  }
+]
+[2022-10-23T22:47:51.510] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6355eec7334bc7a05c8c5ba3"),
+    __v: 0
+  }
+]
+[2022-10-23T22:47:53.041] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6355eec8334bc7a05c8c5baa"),
+    __v: 0
+  }
+]
+[2022-10-23T22:49:34.114] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T22:49:35.249] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T22:50:20.301] [INFO] produccion - logout1
+[2022-10-23T22:50:20.302] [INFO] produccion - logout2
+[2022-10-23T22:50:21.809] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6355ef5d994d0c489983f709"),
+    __v: 0
+  }
+]
+[2022-10-23T22:50:21.922] [INFO] produccion - getDatos
+[2022-10-23T22:50:21.922] [INFO] produccion - entra al if
+[2022-10-23T22:50:21.922] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-23T22:50:22.080] [INFO] produccion - [
+  {
+    productos: '[]',
+    _id: new ObjectId("6355ef5e994d0c489983f70f"),
+    __v: 0
+  }
+]
+[2022-10-23T23:02:33.038] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T23:02:33.932] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T23:02:47.520] [INFO] produccion - carrito borrado
+[2022-10-23T23:02:57.855] [INFO] produccion - [
+  {
+    user_id: '634de9ee006be74c2ec0f1ab',
+    activo: 1,
+    productos: '[]',
+    _id: new ObjectId("6355f2511b0292422d1e6f88"),
+    __v: 0
+  }
+]
+[2022-10-23T23:02:57.958] [INFO] produccion - getDatos
+[2022-10-23T23:02:57.958] [INFO] produccion - entra al if
+[2022-10-23T23:02:57.958] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-23T23:03:18.915] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T23:03:19.754] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T23:03:34.457] [INFO] produccion - getDatos
+[2022-10-23T23:03:34.457] [INFO] produccion - entra al if
+[2022-10-23T23:03:34.457] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-23T23:31:05.953] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-23T23:31:06.900] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-23T23:31:09.701] [INFO] produccion - getDatos
+[2022-10-23T23:31:09.701] [INFO] produccion - entra al if
+[2022-10-23T23:31:09.701] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T00:26:19.024] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T00:26:20.064] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T00:30:52.657] [INFO] produccion - getDatos
+[2022-10-24T00:30:52.658] [INFO] produccion - entra al if
+[2022-10-24T00:30:52.658] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T00:32:37.010] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T00:32:37.884] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T00:32:41.454] [INFO] produccion - getDatos
+[2022-10-24T00:32:41.454] [INFO] produccion - entra al if
+[2022-10-24T00:32:41.454] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T00:35:58.383] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T00:35:58.961] [INFO] produccion - logout1
+[2022-10-24T00:35:58.962] [INFO] produccion - logout2
+[2022-10-24T00:35:59.316] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T00:36:00.526] [INFO] produccion - getDatos
+[2022-10-24T00:36:00.526] [INFO] produccion - entra al if
+[2022-10-24T00:36:00.526] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T00:44:00.611] [INFO] produccion - carrito borrado
+[2022-10-24T00:44:04.980] [INFO] produccion - carrito borrado
+[2022-10-24T00:44:39.672] [INFO] produccion - [
+  {
+    user_id: '634de9ee006be74c2ec0f1ab',
+    activo: 1,
+    productos: '[]',
+    _id: new ObjectId("63560a27372c1b7e90f0249c"),
+    __v: 0
+  }
+]
+[2022-10-24T00:44:39.772] [INFO] produccion - getDatos
+[2022-10-24T00:44:39.772] [INFO] produccion - entra al if
+[2022-10-24T00:44:39.772] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T00:46:44.604] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T00:46:45.720] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T00:47:19.299] [INFO] produccion - logout1
+[2022-10-24T00:47:19.300] [INFO] produccion - logout2
+[2022-10-24T00:47:34.142] [INFO] produccion - getDatos
+[2022-10-24T00:47:34.142] [INFO] produccion - entra al if
+[2022-10-24T00:47:34.142] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T00:47:46.781] [INFO] produccion - logout1
+[2022-10-24T00:47:46.782] [INFO] produccion - logout2
+[2022-10-24T00:47:48.572] [INFO] produccion - getDatos
+[2022-10-24T00:47:48.572] [INFO] produccion - entra al if
+[2022-10-24T00:47:48.572] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T00:47:52.450] [INFO] produccion - logout1
+[2022-10-24T00:47:52.450] [INFO] produccion - logout2
+[2022-10-24T01:07:44.924] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T01:07:45.808] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T01:07:47.348] [INFO] produccion - getDatos
+[2022-10-24T01:07:47.348] [INFO] produccion - entra al if
+[2022-10-24T01:07:47.348] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T01:13:42.892] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T01:13:43.746] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T01:14:15.637] [INFO] produccion - logout1
+[2022-10-24T01:14:15.638] [INFO] produccion - logout2
+[2022-10-24T01:15:17.806] [INFO] produccion - getDatos
+[2022-10-24T01:15:17.806] [INFO] produccion - entra al if
+[2022-10-24T01:15:17.806] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T01:23:53.019] [INFO] produccion - getDatos
+[2022-10-24T01:23:53.020] [INFO] produccion - entra al if
+[2022-10-24T01:23:53.020] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T01:25:12.865] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T01:25:13.864] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T01:25:16.737] [INFO] produccion - logout1
+[2022-10-24T01:25:16.738] [INFO] produccion - logout2
+[2022-10-24T01:25:18.349] [INFO] produccion - getDatos
+[2022-10-24T01:25:18.349] [INFO] produccion - entra al if
+[2022-10-24T01:25:18.349] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T01:25:55.650] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T01:25:56.528] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T01:25:56.552] [INFO] produccion - logout1
+[2022-10-24T01:25:56.554] [INFO] produccion - logout2
+[2022-10-24T01:25:58.188] [INFO] produccion - getDatos
+[2022-10-24T01:25:58.188] [INFO] produccion - entra al if
+[2022-10-24T01:25:58.189] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T01:33:44.199] [INFO] produccion - logout1
+[2022-10-24T01:33:44.200] [INFO] produccion - logout2
+[2022-10-24T01:33:51.746] [INFO] produccion - getDatos
+[2022-10-24T01:33:51.746] [INFO] produccion - entra al if
+[2022-10-24T01:33:51.746] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T01:39:46.114] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T01:39:46.987] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T01:39:56.320] [INFO] produccion - logout1
+[2022-10-24T01:39:56.322] [INFO] produccion - logout2
+[2022-10-24T01:39:57.764] [INFO] produccion - getDatos
+[2022-10-24T01:39:57.764] [INFO] produccion - entra al if
+[2022-10-24T01:39:57.765] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T01:43:52.939] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T01:43:53.053] [INFO] produccion - logout1
+[2022-10-24T01:43:53.055] [INFO] produccion - logout2
+[2022-10-24T01:43:53.814] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T01:43:54.638] [INFO] produccion - getDatos
+[2022-10-24T01:43:54.638] [INFO] produccion - entra al if
+[2022-10-24T01:43:54.638] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T01:45:09.571] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T01:45:10.431] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T01:45:14.076] [INFO] produccion - logout1
+[2022-10-24T01:45:14.077] [INFO] produccion - logout2
+[2022-10-24T01:45:15.547] [INFO] produccion - getDatos
+[2022-10-24T01:45:15.547] [INFO] produccion - entra al if
+[2022-10-24T01:45:15.547] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T01:47:54.525] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T01:47:55.506] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T01:47:57.227] [INFO] produccion - logout1
+[2022-10-24T01:47:57.228] [INFO] produccion - logout2
+[2022-10-24T01:47:59.531] [INFO] produccion - getDatos
+[2022-10-24T01:47:59.531] [INFO] produccion - entra al if
+[2022-10-24T01:47:59.531] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T02:05:55.842] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T02:05:56.942] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T02:06:01.548] [INFO] produccion - getDatos
+[2022-10-24T02:06:01.548] [INFO] produccion - entra al if
+[2022-10-24T02:06:01.548] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T02:06:25.573] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T02:06:26.343] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T02:06:49.368] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T02:06:50.262] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T02:12:33.757] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T02:12:34.667] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T02:12:36.720] [INFO] produccion - logout1
+[2022-10-24T02:12:36.721] [INFO] produccion - logout2
+[2022-10-24T02:12:38.235] [INFO] produccion - getDatos
+[2022-10-24T02:12:38.236] [INFO] produccion - entra al if
+[2022-10-24T02:12:38.236] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T02:17:09.299] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T02:17:10.286] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T02:17:11.529] [INFO] produccion - logout1
+[2022-10-24T02:17:11.530] [INFO] produccion - logout2
+[2022-10-24T02:17:12.931] [INFO] produccion - getDatos
+[2022-10-24T02:17:12.931] [INFO] produccion - entra al if
+[2022-10-24T02:17:12.931] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T02:28:09.784] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T02:28:10.750] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T02:28:16.159] [INFO] produccion - getDatos
+[2022-10-24T02:28:16.159] [INFO] produccion - entra al if
+[2022-10-24T02:28:16.159] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T02:37:08.427] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T02:37:09.279] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T02:37:13.186] [INFO] produccion - logout1
+[2022-10-24T02:37:13.187] [INFO] produccion - logout2
+[2022-10-24T02:37:15.086] [INFO] produccion - getDatos
+[2022-10-24T02:37:15.086] [INFO] produccion - entra al if
+[2022-10-24T02:37:15.086] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T02:38:14.926] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T02:38:15.868] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T02:40:46.404] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T02:40:47.488] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T02:41:03.673] [INFO] produccion - logout1
+[2022-10-24T02:41:03.675] [INFO] produccion - logout2
+[2022-10-24T02:41:05.929] [INFO] produccion - getDatos
+[2022-10-24T02:41:05.929] [INFO] produccion - entra al if
+[2022-10-24T02:41:05.929] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T02:43:05.076] [INFO] produccion - logout1
+[2022-10-24T02:43:05.077] [INFO] produccion - logout2
+[2022-10-24T02:43:06.576] [INFO] produccion - getDatos
+[2022-10-24T02:43:06.576] [INFO] produccion - entra al if
+[2022-10-24T02:43:06.576] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T02:51:38.658] [INFO] produccion - getDatos
+[2022-10-24T02:51:38.658] [INFO] produccion - entra al if
+[2022-10-24T02:51:38.658] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T03:00:43.530] [INFO] produccion - logout1
+[2022-10-24T03:00:43.530] [INFO] produccion - logout2
+[2022-10-24T03:00:50.568] [INFO] produccion - [
+  {
+    user_id: '6354d0ac9dec484facaae69d',
+    activo: 1,
+    productos: '[]',
+    _id: new ObjectId("63562a12d3ed89c99e96d2e8"),
+    __v: 0
+  }
+]
+[2022-10-24T03:00:50.673] [INFO] produccion - getDatos
+[2022-10-24T03:00:50.673] [INFO] produccion - entra al if
+[2022-10-24T03:00:50.673] [INFO] produccion - {
+  _id: new ObjectId("6354d0ac9dec484facaae69d"),
+  username: 'prueba2@prueba.com',
+  password: '$2a$10$Tt4mXAEuz5MDTcdzl2oxR.O1WdGPomEkMIkRIqZlqjYVD9Dq7e9jO',
+  name: 'prueba',
+  surname: '2',
+  phone: 2,
+  __v: 0
+}
+[2022-10-24T03:01:27.286] [INFO] produccion - logout1
+[2022-10-24T03:01:27.286] [INFO] produccion - logout2
+[2022-10-24T03:01:32.437] [INFO] produccion - getDatos
+[2022-10-24T03:01:32.437] [INFO] produccion - entra al if
+[2022-10-24T03:01:32.437] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T03:34:37.949] [INFO] produccion - getDatos
+[2022-10-24T03:34:37.949] [INFO] produccion - entra al if
+[2022-10-24T03:34:37.949] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T03:36:06.371] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T03:36:07.330] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T03:36:08.212] [INFO] produccion - logout1
+[2022-10-24T03:36:08.214] [INFO] produccion - logout2
+[2022-10-24T03:36:09.811] [INFO] produccion - getDatos
+[2022-10-24T03:36:09.811] [INFO] produccion - entra al if
+[2022-10-24T03:36:09.811] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T03:55:44.305] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T03:55:45.201] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T03:55:53.827] [INFO] produccion - getDatos
+[2022-10-24T03:55:53.827] [INFO] produccion - entra al if
+[2022-10-24T03:55:53.827] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T04:00:33.443] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T04:00:39.854] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T04:00:40.718] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T04:00:42.854] [INFO] produccion - getDatos
+[2022-10-24T04:00:42.854] [INFO] produccion - entra al if
+[2022-10-24T04:00:42.854] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T04:12:49.404] [INFO] produccion - getDatos
+[2022-10-24T04:12:49.405] [INFO] produccion - entra al if
+[2022-10-24T04:12:49.405] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T04:13:26.045] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T04:13:27.000] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T04:13:30.137] [INFO] produccion - getDatos
+[2022-10-24T04:13:30.138] [INFO] produccion - entra al if
+[2022-10-24T04:13:30.138] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T04:14:30.981] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T04:14:31.801] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T04:14:33.821] [INFO] produccion - getDatos
+[2022-10-24T04:14:33.821] [INFO] produccion - entra al if
+[2022-10-24T04:14:33.821] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T04:16:24.358] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T04:16:25.278] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T04:16:26.435] [INFO] produccion - logout1
+[2022-10-24T04:16:26.436] [INFO] produccion - logout2
+[2022-10-24T04:18:09.831] [INFO] produccion - getDatos
+[2022-10-24T04:18:09.831] [INFO] produccion - entra al if
+[2022-10-24T04:18:09.831] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T04:41:27.957] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T04:41:28.961] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T04:41:32.069] [INFO] produccion - getDatos
+[2022-10-24T04:41:32.069] [INFO] produccion - entra al if
+[2022-10-24T04:41:32.069] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T04:58:30.288] [INFO] produccion - getDatos
+[2022-10-24T04:58:30.288] [INFO] produccion - entra al if
+[2022-10-24T04:58:30.289] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T05:12:55.827] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T05:12:56.789] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T05:12:59.072] [INFO] produccion - getDatos
+[2022-10-24T05:12:59.072] [INFO] produccion - entra al if
+[2022-10-24T05:12:59.072] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T05:14:39.113] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T05:14:40.067] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T05:14:47.540] [INFO] produccion - getDatos
+[2022-10-24T05:14:47.540] [INFO] produccion - entra al if
+[2022-10-24T05:14:47.540] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T05:15:54.716] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T05:15:55.602] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T05:16:00.836] [INFO] produccion - getDatos
+[2022-10-24T05:16:00.836] [INFO] produccion - entra al if
+[2022-10-24T05:16:00.836] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T05:16:48.794] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T05:16:49.656] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T05:17:02.072] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T05:17:03.024] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T05:17:05.104] [INFO] produccion - getDatos
+[2022-10-24T05:17:05.104] [INFO] produccion - entra al if
+[2022-10-24T05:17:05.104] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T05:19:02.316] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T05:19:03.162] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T05:19:07.943] [INFO] produccion - getDatos
+[2022-10-24T05:19:07.943] [INFO] produccion - entra al if
+[2022-10-24T05:19:07.943] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T05:23:18.607] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T05:23:19.432] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T05:23:22.909] [INFO] produccion - getDatos
+[2022-10-24T05:23:22.910] [INFO] produccion - entra al if
+[2022-10-24T05:23:22.910] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T05:24:12.868] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T05:24:13.671] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T05:24:17.217] [INFO] produccion - getDatos
+[2022-10-24T05:24:17.217] [INFO] produccion - entra al if
+[2022-10-24T05:24:17.217] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T05:31:23.457] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T05:31:24.413] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T05:31:29.320] [INFO] produccion - getDatos
+[2022-10-24T05:31:29.320] [INFO] produccion - entra al if
+[2022-10-24T05:31:29.320] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T05:38:11.262] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T05:38:12.137] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T05:38:20.484] [INFO] produccion - getDatos
+[2022-10-24T05:38:20.484] [INFO] produccion - entra al if
+[2022-10-24T05:38:20.484] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T16:23:31.980] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T16:23:32.937] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T16:23:41.235] [INFO] produccion - getDatos
+[2022-10-24T16:23:41.235] [INFO] produccion - entra al if
+[2022-10-24T16:23:41.235] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T16:32:55.908] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T16:32:56.784] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T16:33:00.826] [INFO] produccion - getDatos
+[2022-10-24T16:33:00.826] [INFO] produccion - entra al if
+[2022-10-24T16:33:00.826] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T16:34:21.673] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T16:34:22.576] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T16:34:33.786] [INFO] produccion - getDatos
+[2022-10-24T16:34:33.787] [INFO] produccion - entra al if
+[2022-10-24T16:34:33.787] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T17:20:50.324] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T17:20:51.200] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T17:20:59.242] [INFO] produccion - getDatos
+[2022-10-24T17:20:59.242] [INFO] produccion - entra al if
+[2022-10-24T17:20:59.243] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T17:22:45.512] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T17:22:46.368] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T17:23:12.690] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T17:23:13.623] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T17:23:21.352] [INFO] produccion - logout1
+[2022-10-24T17:23:21.355] [INFO] produccion - logout2
+[2022-10-24T17:23:26.334] [INFO] produccion - getDatos
+[2022-10-24T17:23:26.334] [INFO] produccion - entra al if
+[2022-10-24T17:23:26.334] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T17:43:34.955] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T17:43:35.863] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T17:43:37.379] [INFO] produccion - getDatos
+[2022-10-24T17:43:37.379] [INFO] produccion - entra al if
+[2022-10-24T17:43:37.379] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T17:44:24.482] [INFO] produccion - logout1
+[2022-10-24T17:44:24.482] [INFO] produccion - logout2
+[2022-10-24T17:44:32.353] [INFO] produccion - getDatos
+[2022-10-24T17:44:32.353] [INFO] produccion - entra al if
+[2022-10-24T17:44:32.354] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T17:48:40.230] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T17:48:41.212] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T17:48:43.632] [ERROR] produccion - RestException [Error]: Authenticate
+    at success (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\q\q.js:1369:30)
+    at RawTask.call (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\asap\asap.js:40:19)
+    at flush (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-10-24T17:48:44.373] [ERROR] produccion - RestException [Error]: Authenticate
+    at success (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\q\q.js:1369:30)
+    at RawTask.call (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\asap\asap.js:40:19)
+    at flush (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-10-24T17:48:45.400] [ERROR] produccion - Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials x35-20020a056870b42300b0012752d3212fsm477343oap.53 - gsmtp
+    at SMTPConnection._formatError (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\nodemailer\lib\smtp-connection\index.js:790:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\nodemailer\lib\smtp-connection\index.js:1542:34)
+    at SMTPConnection.<anonymous> (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\nodemailer\lib\smtp-connection\index.js:546:26)
+    at SMTPConnection._processResponse (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\nodemailer\lib\smtp-connection\index.js:953:20)
+    at SMTPConnection._onData (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\nodemailer\lib\smtp-connection\index.js:755:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\nodemailer\lib\smtp-connection\index.js:193:44)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at TLSSocket.Readable.push (node:internal/streams/readable:228:10) {
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. Learn more at\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials x35-20020a056870b42300b0012752d3212fsm477343oap.53 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+[2022-10-24T17:53:47.311] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T17:53:48.310] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T17:53:49.992] [ERROR] produccion - RestException [Error]: Authenticate
+    at success (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\q\q.js:1369:30)
+    at RawTask.call (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\asap\asap.js:40:19)
+    at flush (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-10-24T17:53:50.740] [ERROR] produccion - RestException [Error]: Authenticate
+    at success (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\q\q.js:1369:30)
+    at RawTask.call (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\asap\asap.js:40:19)
+    at flush (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-10-24T17:53:51.481] [ERROR] produccion - Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials k14-20020a056870818e00b0013191fdeb9bsm509764oae.38 - gsmtp
+    at SMTPConnection._formatError (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\nodemailer\lib\smtp-connection\index.js:790:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\nodemailer\lib\smtp-connection\index.js:1542:34)
+    at SMTPConnection.<anonymous> (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\nodemailer\lib\smtp-connection\index.js:546:26)
+    at SMTPConnection._processResponse (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\nodemailer\lib\smtp-connection\index.js:953:20)
+    at SMTPConnection._onData (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\nodemailer\lib\smtp-connection\index.js:755:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\nodemailer\lib\smtp-connection\index.js:193:44)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at TLSSocket.Readable.push (node:internal/streams/readable:228:10) {
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. Learn more at\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials k14-20020a056870818e00b0013191fdeb9bsm509764oae.38 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+[2022-10-24T17:53:54.194] [INFO] produccion - [
+  {
+    user_id: '634de9ee006be74c2ec0f1ab',
+    activo: 1,
+    productos: '[]',
+    _id: new ObjectId("6356fb62b7ba9b13f4974d7a"),
+    __v: 0
+  }
+]
+[2022-10-24T17:53:54.303] [INFO] produccion - getDatos
+[2022-10-24T17:53:54.304] [INFO] produccion - entra al if
+[2022-10-24T17:53:54.304] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T18:35:33.401] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T18:35:34.378] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T18:35:40.690] [INFO] produccion - getDatos
+[2022-10-24T18:35:40.691] [INFO] produccion - entra al if
+[2022-10-24T18:35:40.691] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T18:36:07.672] [INFO] produccion - logout1
+[2022-10-24T18:36:07.672] [INFO] produccion - logout2
+[2022-10-24T18:36:09.176] [INFO] produccion - getDatos
+[2022-10-24T18:36:09.176] [INFO] produccion - entra al if
+[2022-10-24T18:36:09.176] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T18:38:06.644] [ERROR] produccion - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\q\q.js:1369:30)
+    at RawTask.call (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\asap\asap.js:40:19)
+    at flush (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-10-24T18:48:34.606] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T18:48:35.693] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T18:50:20.476] [ERROR] produccion - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\q\q.js:1369:30)
+    at RawTask.call (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\asap\asap.js:40:19)
+    at flush (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-10-24T18:50:21.393] [INFO] produccion - {
+  body: 'Sent from your Twilio trial account - Has finalizado la compra. Tu lista de productos: \r\n' +
+    'Licuadora $24899 \r\n' +
+    'Zapatilla $19.459 \r\n' +
+    'Amoladora $8.599',
+  numSegments: '1',
+  direction: 'outbound-api',
+  from: '+19513570609',
+  to: '+541137839891',
+  dateUpdated: 2022-10-24T21:50:21.000Z,
+  price: null,
+  errorMessage: null,
+  uri: '/2010-04-01/Accounts/AC3b31e13c3b94f9ac09e61fea944c5e64/Messages/SM0d05aa4b87e25a01872b5fb83b136058.json',
+  accountSid: 'AC3b31e13c3b94f9ac09e61fea944c5e64',
+  numMedia: '0',
+  status: 'queued',
+  messagingServiceSid: null,
+  sid: 'SM0d05aa4b87e25a01872b5fb83b136058',
+  dateSent: null,
+  dateCreated: 2022-10-24T21:50:21.000Z,
+  errorCode: null,
+  priceUnit: 'USD',
+  apiVersion: '2010-04-01',
+  subresourceUris: {
+    media: '/2010-04-01/Accounts/AC3b31e13c3b94f9ac09e61fea944c5e64/Messages/SM0d05aa4b87e25a01872b5fb83b136058/Media.json'
+  }
+}
+[2022-10-24T18:50:22.434] [INFO] produccion - [
+  {
+    user_id: '634de9ee006be74c2ec0f1ab',
+    activo: 1,
+    productos: '[]',
+    _id: new ObjectId("6357089e0b98e22018b62df7"),
+    __v: 0
+  }
+]
+[2022-10-24T18:50:22.537] [INFO] produccion - getDatos
+[2022-10-24T18:50:22.537] [INFO] produccion - entra al if
+[2022-10-24T18:50:22.537] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T18:52:15.474] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T18:52:16.496] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T18:52:18.368] [INFO] produccion - logout1
+[2022-10-24T18:52:18.370] [INFO] produccion - logout2
+[2022-10-24T18:52:29.867] [INFO] produccion - getDatos
+[2022-10-24T18:52:29.868] [INFO] produccion - entra al if
+[2022-10-24T18:52:29.868] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T18:52:55.841] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T18:53:06.108] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T18:53:07.213] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T18:53:08.119] [INFO] produccion - logout1
+[2022-10-24T18:53:08.120] [INFO] produccion - logout2
+[2022-10-24T18:53:10.490] [INFO] produccion - getDatos
+[2022-10-24T18:53:10.490] [INFO] produccion - entra al if
+[2022-10-24T18:53:10.491] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T18:57:09.630] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T18:57:10.517] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T18:57:12.862] [INFO] produccion - logout1
+[2022-10-24T18:57:12.864] [INFO] produccion - logout2
+[2022-10-24T18:57:14.505] [INFO] produccion - getDatos
+[2022-10-24T18:57:14.505] [INFO] produccion - entra al if
+[2022-10-24T18:57:14.505] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T18:58:27.099] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T18:58:28.054] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T18:59:49.920] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T18:59:50.756] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T19:00:16.661] [INFO] produccion - logout1
+[2022-10-24T19:00:16.662] [INFO] produccion - logout2
+[2022-10-24T19:00:18.436] [INFO] produccion - getDatos
+[2022-10-24T19:00:18.436] [INFO] produccion - entra al if
+[2022-10-24T19:00:18.436] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T19:01:35.716] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T19:01:36.660] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T19:01:46.633] [INFO] produccion - logout1
+[2022-10-24T19:01:46.635] [INFO] produccion - logout2
+[2022-10-24T19:01:48.696] [INFO] produccion - getDatos
+[2022-10-24T19:01:48.696] [INFO] produccion - entra al if
+[2022-10-24T19:01:48.697] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T19:03:06.777] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T19:03:07.647] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T19:03:13.838] [INFO] produccion - getDatos
+[2022-10-24T19:03:13.838] [INFO] produccion - entra al if
+[2022-10-24T19:03:13.838] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T19:06:24.918] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T19:06:25.852] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T19:06:28.503] [INFO] produccion - logout1
+[2022-10-24T19:06:28.505] [INFO] produccion - logout2
+[2022-10-24T19:06:30.020] [INFO] produccion - getDatos
+[2022-10-24T19:06:30.020] [INFO] produccion - entra al if
+[2022-10-24T19:06:30.020] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T19:08:39.682] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T19:08:40.581] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T19:08:48.057] [INFO] produccion - getDatos
+[2022-10-24T19:08:48.058] [INFO] produccion - entra al if
+[2022-10-24T19:08:48.058] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T19:10:24.635] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T19:10:25.585] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T19:11:22.021] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T19:11:22.860] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T19:19:59.480] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T19:20:00.389] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T19:20:11.360] [INFO] produccion - getDatos
+[2022-10-24T19:20:11.361] [INFO] produccion - entra al if
+[2022-10-24T19:20:11.361] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T19:20:42.567] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T19:20:43.440] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T19:20:45.640] [INFO] produccion - getDatos
+[2022-10-24T19:20:45.640] [INFO] produccion - entra al if
+[2022-10-24T19:20:45.640] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T19:26:00.750] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T19:26:02.022] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T19:26:05.755] [INFO] produccion - getDatos
+[2022-10-24T19:26:05.755] [INFO] produccion - entra al if
+[2022-10-24T19:26:05.755] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T20:14:27.400] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T20:14:28.336] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T20:21:22.582] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T20:21:23.537] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T20:21:46.227] [INFO] produccion - getDatos
+[2022-10-24T20:21:46.227] [INFO] produccion - entra al if
+[2022-10-24T20:21:46.228] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T20:23:24.584] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T20:23:25.488] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T20:23:31.307] [INFO] produccion - getDatos
+[2022-10-24T20:23:31.307] [INFO] produccion - entra al if
+[2022-10-24T20:23:31.307] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T20:24:04.767] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T20:24:05.594] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T20:24:08.209] [INFO] produccion - getDatos
+[2022-10-24T20:24:08.210] [INFO] produccion - entra al if
+[2022-10-24T20:24:08.210] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T20:24:37.159] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T20:24:38.081] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T20:24:39.601] [INFO] produccion - getDatos
+[2022-10-24T20:24:39.601] [INFO] produccion - entra al if
+[2022-10-24T20:24:39.601] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T20:28:01.887] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T20:28:02.788] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T20:28:07.468] [INFO] produccion - getDatos
+[2022-10-24T20:28:07.468] [INFO] produccion - entra al if
+[2022-10-24T20:28:07.469] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T20:28:34.503] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T20:28:35.295] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T20:28:37.418] [INFO] produccion - getDatos
+[2022-10-24T20:28:37.418] [INFO] produccion - entra al if
+[2022-10-24T20:28:37.418] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T20:38:12.215] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T20:38:13.308] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T20:40:19.766] [INFO] produccion - getDatos
+[2022-10-24T20:40:19.767] [INFO] produccion - entra al if
+[2022-10-24T20:40:19.767] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T20:40:57.650] [INFO] produccion - logout1
+[2022-10-24T20:40:57.650] [INFO] produccion - logout2
+[2022-10-24T20:41:01.881] [INFO] produccion - getDatos
+[2022-10-24T20:41:01.881] [INFO] produccion - entra al if
+[2022-10-24T20:41:01.881] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T20:42:36.034] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T20:42:36.903] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T20:42:42.462] [INFO] produccion - getDatos
+[2022-10-24T20:42:42.462] [INFO] produccion - entra al if
+[2022-10-24T20:42:42.462] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T20:43:04.992] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T20:43:05.820] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T20:43:07.514] [INFO] produccion - logout1
+[2022-10-24T20:43:07.516] [INFO] produccion - logout2
+[2022-10-24T20:43:09.156] [INFO] produccion - getDatos
+[2022-10-24T20:43:09.156] [INFO] produccion - entra al if
+[2022-10-24T20:43:09.157] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T20:47:31.701] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T20:47:32.570] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T20:47:33.028] [INFO] produccion - logout1
+[2022-10-24T20:47:33.029] [INFO] produccion - logout2
+[2022-10-24T20:47:34.676] [INFO] produccion - getDatos
+[2022-10-24T20:47:34.676] [INFO] produccion - entra al if
+[2022-10-24T20:47:34.676] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T21:10:07.910] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T21:10:08.823] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T21:10:58.930] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T21:11:09.042] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T21:11:09.940] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T21:13:47.670] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T21:13:48.543] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T21:15:46.315] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T21:15:47.347] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T21:15:47.482] [INFO] produccion - getDatos
+[2022-10-24T21:15:47.482] [INFO] produccion - entra al if
+[2022-10-24T21:15:47.483] [INFO] produccion - {
+  _id: new ObjectId("634de9ee006be74c2ec0f1ab"),
+  username: 'prueba1@prueba.com',
+  password: '$2a$10$Vh5p86gldeY7V7p.Ys06j.Ho9j5Rjdeg6o5IbGCy7NNo8mmbAIKdG',
+  name: 'prueba',
+  surname: 'uno',
+  phone: 111111,
+  __v: 0,
+  thumbnail: 'e9572a70726980ed5445c02e1058760b.jpg'
+}
+[2022-10-24T21:18:48.395] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T21:18:49.382] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T21:19:55.620] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T21:19:56.535] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T22:20:47.167] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T22:20:48.236] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T22:22:06.891] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T22:22:07.829] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T22:22:48.937] [INFO] produccion - Servidor HTTP escuando en el puerto 8080
+[2022-10-24T22:22:49.790] [DEBUG] produccion - Conectado a la base de datos mongo...
+[2022-10-24T22:28:40.758] [INFO] produccion - Servidor HTTP escuando en el puerto 8080

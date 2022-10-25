@@ -1,0 +1,38 @@
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar Usuario</title>
+</head>
+<body>
+    <style>
+        body {
+            background-image: url("https://img.freepik.com/vector-gratis/fondo-piedra-trazos-dorados_125540-130.jpg?w=826&t=st=1666573713~exp=1666574313~hmac=8b0573ff139c1fd3ff64f996e3df86b86f96d57584043ce6c0d82ca8862ff5dd");
+            background-size: cover;
+  background-repeat: no-repeat;
+  margin: 1em;
+        }
+    </style>
+    <div style="width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;">
+        <h1>Dirección de entrega</h1>
+        <form action="/api/address" method="post">
+            <label for="address">Direccion:</label>
+            <input type="text" id="address" name="address"><br><br>
+            <label for="address">Numero:</label>
+            <input type="number" id="number" name="number"><br><br>
+            <button onclick="location.href='/api/finalizar_compra/{{carrito._id}}'" class="btn btn-dark">Finalizar Compra</button>
+        </form>
+    </div>    
+</body>
+</html>

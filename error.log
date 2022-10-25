@@ -1,0 +1,126 @@
+[2022-10-22T05:04:20.129] [ERROR] produccion - user not found prueba1@prueba.com1
+[2022-10-22T05:04:20.129] [ERROR] produccion - message user not found
+[2022-10-22T05:04:48.558] [ERROR] produccion - Invalid password
+[2022-10-22T05:04:48.558] [ERROR] produccion - mensage Invalid Password
+[2022-10-23T02:26:49.242] [ERROR] produccion - user not found prueba2@prueba.com
+[2022-10-23T02:26:49.242] [ERROR] produccion - message user not found
+[2022-10-24T17:48:43.632] [ERROR] produccion - RestException [Error]: Authenticate
+    at success (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\q\q.js:1369:30)
+    at RawTask.call (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\asap\asap.js:40:19)
+    at flush (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-10-24T17:48:44.373] [ERROR] produccion - RestException [Error]: Authenticate
+    at success (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\q\q.js:1369:30)
+    at RawTask.call (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\asap\asap.js:40:19)
+    at flush (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-10-24T17:48:45.400] [ERROR] produccion - Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials x35-20020a056870b42300b0012752d3212fsm477343oap.53 - gsmtp
+    at SMTPConnection._formatError (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\nodemailer\lib\smtp-connection\index.js:790:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\nodemailer\lib\smtp-connection\index.js:1542:34)
+    at SMTPConnection.<anonymous> (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\nodemailer\lib\smtp-connection\index.js:546:26)
+    at SMTPConnection._processResponse (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\nodemailer\lib\smtp-connection\index.js:953:20)
+    at SMTPConnection._onData (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\nodemailer\lib\smtp-connection\index.js:755:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\nodemailer\lib\smtp-connection\index.js:193:44)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at TLSSocket.Readable.push (node:internal/streams/readable:228:10) {
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. Learn more at\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials x35-20020a056870b42300b0012752d3212fsm477343oap.53 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+[2022-10-24T17:53:49.992] [ERROR] produccion - RestException [Error]: Authenticate
+    at success (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\q\q.js:1369:30)
+    at RawTask.call (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\asap\asap.js:40:19)
+    at flush (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-10-24T17:53:50.740] [ERROR] produccion - RestException [Error]: Authenticate
+    at success (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\q\q.js:1369:30)
+    at RawTask.call (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\asap\asap.js:40:19)
+    at flush (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2022-10-24T17:53:51.481] [ERROR] produccion - Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials k14-20020a056870818e00b0013191fdeb9bsm509764oae.38 - gsmtp
+    at SMTPConnection._formatError (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\nodemailer\lib\smtp-connection\index.js:790:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\nodemailer\lib\smtp-connection\index.js:1542:34)
+    at SMTPConnection.<anonymous> (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\nodemailer\lib\smtp-connection\index.js:546:26)
+    at SMTPConnection._processResponse (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\nodemailer\lib\smtp-connection\index.js:953:20)
+    at SMTPConnection._onData (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\nodemailer\lib\smtp-connection\index.js:755:14)
+    at TLSSocket.SMTPConnection._onSocketData (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\nodemailer\lib\smtp-connection\index.js:193:44)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at TLSSocket.Readable.push (node:internal/streams/readable:228:10) {
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. Learn more at\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials k14-20020a056870818e00b0013191fdeb9bsm509764oae.38 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+[2022-10-24T18:38:06.644] [ERROR] produccion - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\q\q.js:1369:30)
+    at RawTask.call (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\asap\asap.js:40:19)
+    at flush (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2022-10-24T18:50:20.476] [ERROR] produccion - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\twilio\lib\base\Version.js:135:15)
+    at Promise_then_fulfilled (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\q\q.js:766:44)
+    at Promise_done_fulfilled (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\q\q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\q\q.js:1229:9)
+    at Pending_become_eachMessage_task (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\q\q.js:1369:30)
+    at RawTask.call (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\asap\asap.js:40:19)
+    at flush (C:\Users\nico\Desktop\Coderhouse2022\25. Proyecto final\node_modules\asap\raw.js:50:29)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
