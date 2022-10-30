@@ -200,23 +200,16 @@ router.delete("/carrito/:id_carrito/productos/:id_producto", async (req, res) =>
 });
 
 router.get("/ordenes", async (req, res) => {
-  const carrito = await carritosDao.getCarrito(req, res)
-  let tieneDatos;
-  const productos = JSON.parse(carrito.productos)
-  if (productos.length > 0) {
-    tieneDatos = true
-  } else {
-    tieneDatos = false
-  }
+    const carrito = await carritosDao.getCarrito(req, res)
+    const productos = JSON.parse(carrito.productos)
+    if (productos.length > 0) {
+      tieneDatos = true
+    } else {
+      tieneDatos = false
+    }
+    res.json(carrito);
 })
 
-router.get("/chat", async () => {
-
-})
-
-router.get("/chat/:email", async () => {
-
-})
 
 
 module.exports = router;

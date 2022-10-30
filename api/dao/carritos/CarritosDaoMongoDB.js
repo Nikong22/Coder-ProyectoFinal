@@ -1,4 +1,5 @@
 const CarritoDB = require('../../../models/cartmongo');
+const OrdenDB = require('../../../models/ordenes');
 const logger = require('../../../logger');
 
 let CarritosDaoMongoDB = class CarritosDaoMongoDB {
@@ -6,7 +7,7 @@ let CarritosDaoMongoDB = class CarritosDaoMongoDB {
   crearCarrito = async (req, res) => {
     const user_id = req.user._id.toString()
     let carrito = await
-      CarritoDB.find({ "user_id": user_id, "activo": 1 }).lean()
+      CarritoDB.find({ "user_id": user_id, "estado": 1 }).lean()
         .then((carrito) => {
           return carrito
         })
@@ -16,7 +17,7 @@ let CarritosDaoMongoDB = class CarritosDaoMongoDB {
         fecha: new Date(),
         productos: JSON.stringify([]),
         user_id: user_id,
-        activo: 1
+        estado: 1
       }
       const carritos_id = await
         CarritoDB.insertMany(carritoNuevo)
@@ -37,7 +38,7 @@ let CarritosDaoMongoDB = class CarritosDaoMongoDB {
 
   finalizar = async (req, res) => {
     const { id_carrito } = req.params;
-    CarritoDB.updateOne({ "_id": id_carrito }, { 'activo': 0 })
+    CarritoDB.updateOne({ "_id": id_carrito }, { 'estado': 0 })
       .then((update) => {
         return update
       })
@@ -79,16 +80,6 @@ let CarritosDaoMongoDB = class CarritosDaoMongoDB {
           return carritos
         })
     return carritos
-    // const { id_carrito } = req.params;
-    // if (!id_carrito.match(/^[0-9a-fA-F]{24}$/)) {
-    //   return null
-    // }
-    // const carrito = await
-    //   CarritoDB.findOne({ "_id": id_carrito }).lean()
-    //     .then((carrito) => {
-    //       return carrito
-    //     })
-    // return carrito
   }
 
 
@@ -253,7 +244,7 @@ let CarritosDaoMongoDB = class CarritosDaoMongoDB {
   addressCarrito = async (req, res) => {
     const user_id = req.user._id.toString()
     let carrito = await
-      CarritoDB.find({ "user_id": user_id, "activo": 1 }).lean()
+      CarritoDB.find({ "user_id": user_id, "estado": 1 }).lean()
         .then((carrito) => {
           return carrito
         })
@@ -264,8 +255,14 @@ let CarritosDaoMongoDB = class CarritosDaoMongoDB {
       })
   }
 
-  listOrdenes = async (req, res) => {
-
+  listOrders = async (req, res) => {
+    const user_id = req.user._id.toString()
+    let carrito = await
+      CarritoDB.find({ "user_id": user_id}, {'description': description, 'price':price}).lean()
+        .then((carrito) => {
+          return carrito
+        })
+        return carrito
   }
 }
 

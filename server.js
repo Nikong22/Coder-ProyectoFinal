@@ -2,7 +2,7 @@ const express = require("express");
 const bCrypt = require('bcryptjs');
 const passport = require('passport');
 const LocalStrategy = require('passport-local').Strategy;
-const {obtenerUsuario, obtenerUsuarioId, passwordValida} = require('./utils/util');
+const { obtenerUsuario, obtenerUsuarioId, passwordValida } = require('./utils/util');
 const router = require('./router');
 const { engine } = require('express-handlebars');
 const session = require('express-session');
@@ -14,9 +14,9 @@ const carritos = require('./api/carrito');
 const User = require('./models/users')
 require('dotenv').config({ path: __dirname + '/.env' })
 const logger = require('./logger');
-const {fork} = require('child_process');
+const { fork } = require('child_process');
 const cluster = require('cluster');
-const fs = require('fs'); 
+const fs = require('fs');
 var fileupload = require("express-fileupload");
 var cookieParser = require('cookie-parser');
 const { productosDao, carritosDao } = require('./api/dao/daos');
@@ -34,19 +34,19 @@ io.on('connection', (socket) => {
 });
 
 const numCPUs = require('os').cpus().length
-if(FORK_O_CLUSTER == 'FORK'){
+if (FORK_O_CLUSTER == 'FORK') {
   server.listen(PORT, () => logger.info(`Servidor HTTP escuando en el puerto ${PORT}`));
-}else{
-  if(cluster.isMaster){
+} else {
+  if (cluster.isMaster) {
     console.log(`master ${process.pid} running`)
-    for(let i = 0; i < numCPUs; i++){
+    for (let i = 0; i < numCPUs; i++) {
       cluster.fork()
     }
-  
+
     cluster.on('exit', (worker, code, signal) => {
       console.log(`worker ${worker.process.pid} died`)
     })
-  }else{
+  } else {
     console.log(`worker ${process.pid} started`)
     server.listen(PORT, () => logger.info(`Servidor HTTP escuando en el puerto ${PORT}`));
   }
@@ -57,11 +57,11 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.use(session({
-    secret: 'secreto',
-    resave: false,
-    saveUninitialized: false,
-    // cookie: { maxAge: 5000 }
-  }));
+  secret: 'secreto',
+  resave: false,
+  saveUninitialized: false,
+  // cookie: { maxAge: 5000 }
+}));
 app.set('views', './views'); // especifica el directorio de vistas
 app.set('view engine', 'hbs'); // registra el motor de plantillas
 app.use(passport.initialize());
@@ -82,11 +82,11 @@ app.engine(
 );
 
 app.use('/', (req, res, next) => {
-    express.static('public')(req, res, next);
+  express.static('public')(req, res, next);
 });
 
 app.get('/test', (req, res) => {
-    res.send('Server levantado...');
+  res.send('Server levantado...');
 });
 
 app.get('/login', rutas.getLogin);
@@ -106,185 +106,147 @@ app.post('/upload_avatar', uploadAvatar);
 app.get('*', rutas.failRoute);
 
 function checkAuthentication(req, res, next) {
-    if (req.isAuthenticated() && req.cookies.username) {
-        next();
-    } else {
-        res.redirect('/');
-    }
+  if (req.isAuthenticated() && req.cookies.username) {
+    next();
+  } else {
+    res.redirect('/');
   }
+}
 
 passport.use('login', new LocalStrategy({
-    passReqToCallback: true
+  passReqToCallback: true
 },
-    function (req, username, password, done) {
-        User.findOne({ 'username': username },
-            async function (err, user) {
-                if (err)
-                    return done(err);
-                if (!user) {
-                    // console.log('user not found ' + username);
-                    logger.error('user not found ' + username)
-                    return done(null, false,
-                        // console.log('message', 'user not found'));
-                        logger.error('message', 'user not found'))
-                }
-                if (!isValidPassword(user, password)) {
-                    // console.log('Invalid password');
-                    logger.error('Invalid password')
-                    return done(null, false,
-                        // console.log('mensage', 'Invalid Password'));
-                        logger.error('mensage', 'Invalid Password'))
-                }
-                return done(null, user);
-            }
-        );
-    })
+  function (req, username, password, done) {
+    User.findOne({ 'username': username },
+      async function (err, user) {
+        if (err)
+          return done(err);
+        if (!user) {
+          // console.log('user not found ' + username);
+          logger.error('user not found ' + username)
+          return done(null, false,
+            // console.log('message', 'user not found'));
+            logger.error('message', 'user not found'))
+        }
+        if (!isValidPassword(user, password)) {
+          // console.log('Invalid password');
+          logger.error('Invalid password')
+          return done(null, false,
+            // console.log('mensage', 'Invalid Password'));
+            logger.error('mensage', 'Invalid Password'))
+        }
+        return done(null, user);
+      }
+    );
+  })
 );
 
 const isValidPassword = function (user, password) {
-    return bCrypt.compareSync(password, user.password);
+  return bCrypt.compareSync(password, user.password);
 }
 
 passport.use('signup', new LocalStrategy({
-    passReqToCallback: true
+  passReqToCallback: true
 },
-    function (req, username, password, done) {
-        findOrCreateUser = function () {
-            User.findOne({ 'username': username }, function (err, user) {
-                if (err) {
-                    // console.log('Error en SignUp: ' + err);
-                    logger.error('Error en SignUp: ' + err)
-                    return done(err);
-                }
-                if (user) {
-                    // console.log('User already exists');
-                    logger.info('User already exists');
-                    return done(null, false,
-                        // console.log('message', 'User Already Exists'));
-                        logger.info('message', 'User Already Exists'));
-                } else {
-                    var newUser = new User();
-                    newUser.username = username;
-                    newUser.password = createHash(password);
-                    /*newUser.firstName = req.body.firstName;
-                    newUser.lastName = req.body.lastName;*/
-                    newUser.name = req.body.name;
-                    newUser.surname = req.body.surname;
-                    newUser.phone = req.body.phone;
-                    newUser.save(function (err) {
-                        if (err) {
-                            // console.log('Error in Saving user: ' + err);
-                            logger.error('Numero uno o numero dos no es un numero')
-                            throw err;
-                        }
-                        // console.log('User Registration succesful');
-                        logger.info('User Registration succesful');
-                        return done(null, newUser);
-                    });
-                }
-            });
+  function (req, username, password, done) {
+    findOrCreateUser = function () {
+      User.findOne({ 'username': username }, function (err, user) {
+        if (err) {
+          // console.log('Error en SignUp: ' + err);
+          logger.error('Error en SignUp: ' + err)
+          return done(err);
         }
-        process.nextTick(findOrCreateUser);
-    })
+        if (user) {
+          // console.log('User already exists');
+          logger.info('User already exists');
+          return done(null, false,
+            // console.log('message', 'User Already Exists'));
+            logger.info('message', 'User Already Exists'));
+        } else {
+          var newUser = new User();
+          newUser.username = username;
+          newUser.password = createHash(password);
+          /*newUser.firstName = req.body.firstName;
+          newUser.lastName = req.body.lastName;*/
+          newUser.name = req.body.name;
+          newUser.surname = req.body.surname;
+          newUser.phone = req.body.phone;
+          newUser.save(function (err) {
+            if (err) {
+              // console.log('Error in Saving user: ' + err);
+              logger.error('Numero uno o numero dos no es un numero')
+              throw err;
+            }
+            // console.log('User Registration succesful');
+            logger.info('User Registration succesful');
+            return done(null, newUser);
+          });
+        }
+      });
+    }
+    process.nextTick(findOrCreateUser);
+  })
 )
 var createHash = function (password) {
-    return bCrypt.hashSync(password, bCrypt.genSaltSync(10), null);
+  return bCrypt.hashSync(password, bCrypt.genSaltSync(10), null);
 }
 
 
 passport.serializeUser(function (user, done) {
-    done(null, user._id);
+  done(null, user._id);
 });
 
 passport.deserializeUser(function (id, done) {
-    User.findById(id, function (err, user) {
-        done(err, user);
-    });
+  User.findById(id, function (err, user) {
+    done(err, user);
+  });
 });
 
-function uploadAvatar(req, res){
-    const username = req.user.username
-    const pathAvatar = './public/uploads/'
-    User.findOne({ 'username': username },
-        function (err, user) {
-            if (err){
-                logger.error(err)
-                throw err;
-            }
-            user.thumbnail = req.files.thumbnail.name;
-            user.save(function (err) {
-                if (err) {
-                    logger.error(err)
-                    throw err;
-                }
-                fs.writeFile(pathAvatar+req.files.thumbnail.name, req.files.thumbnail.data, function (err) {
-                    res.cookie('avatar', '/uploads/' + req.files.thumbnail.name,  { signed: false, maxAge: 500000 } );
-                    res.cookie('username', username,  { signed: false, maxAge: 500000 } );
-                    res.redirect('/api/productos');
-                });
-            });
+function uploadAvatar(req, res) {
+  const username = req.user.username
+  const pathAvatar = './public/uploads/'
+  User.findOne({ 'username': username },
+    function (err, user) {
+      if (err) {
+        logger.error(err)
+        throw err;
+      }
+      user.thumbnail = req.files.thumbnail.name;
+      user.save(function (err) {
+        if (err) {
+          logger.error(err)
+          throw err;
         }
-    );   
+        fs.writeFile(pathAvatar + req.files.thumbnail.name, req.files.thumbnail.data, function (err) {
+          res.cookie('avatar', '/uploads/' + req.files.thumbnail.name, { signed: false, maxAge: 500000 });
+          res.cookie('username', username, { signed: false, maxAge: 500000 });
+          res.redirect('/api/productos');
+        });
+      });
+    }
+  );
 }
 
-function print(objeto) {
-    console.log(util.inspect(objeto, false, 12, true))
-  }
-  
-  // io.on('connection', async (socket) => {
-  //   console.log('alguien se está conectado...');
-  
-  //   const productos = await productosDao.getProductos()
-  //   let mensajes = await MensajeDB.find({}).then((mensajes) => {
-  //     return mensajes
-  //   })
-  
-  //   const chat= {
-  //     id: 123,
-  //     mensajes: mensajes
-  //   };
-  
-  //   io.sockets.emit('listar', productos);
-  
-  //   socket.on('notificacion', (title, price, thumbnail) => {
-  //     const producto = {
-  //       title: title,
-  //       price: price,
-  //       thumbnail: thumbnail,
-  //     };
-  //     producto.push(productos);
-  //     console.log(producto)
-  
-  //     io.sockets.emit('listar', productos)
-  //   })
-  
-  //   console.log('normalizr:')
-  //   console.log(mensajes)
-  
-  //   const mensajeSchema = new schema.Entity('mensajes');
-  
-  //   const chatSchema = new schema.Entity('chat', {
-  //     mensajes: [mensajeSchema]
-  //   });
-  
-  //   const normalizedChat = normalize(chat, chatSchema);
-  
-  //   // print(normalizedChat);
-  //   console.log('Longitud antes de normalizar:', JSON.stringify(chat).length);
-  //   console.log('Longitud después de normalizar:', JSON.stringify(normalizedChat).length);
-  //   io.sockets.emit('mensajes', mensajes, JSON.stringify(chat).length, JSON.stringify(normalizedChat).length);
-  
-  //   socket.on('nuevo', (data) => {
-  //     MensajeDB.insertMany([data])
-  //       .then((id_insertado) => {
-  //         mensajes['id'] = id_insertado[0];
-  //         mensajes.push(data);
-  //         console.log('Longitud antes de normalizar:', JSON.stringify(chat).length);
-  //         console.log('Longitud después de normalizar:', JSON.stringify(normalizedChat).length);
-  //         io.sockets.emit('mensajes', mensajes, JSON.stringify(chat).length, JSON.stringify(normalizedChat).length);
-  //         console.log(`Mensajes grabados...`);
-  
-  //       });
-  //   })
-  
-  // });
+io.on('connection', async (socket) => {
+  let mensajes = await MensajeDB.find({}).then((mensajes) => {
+    return mensajes
+  })
+  io.sockets.emit('mensajes', mensajes);
+
+  socket.on('mis_mensajes', async (data) => {
+      let mis_mensajes = await MensajeDB.find({'autor': data.autor }).then((mensajes) => {
+        return mensajes
+      })
+      io.sockets.emit('mis_mensajes', mis_mensajes);
+  })
+
+  socket.on('nuevo', (data) => {
+    MensajeDB.insertMany([data])
+      .then((id_insertado) => {
+        mensajes['id'] = id_insertado[0];
+        mensajes.push(data);
+        io.sockets.emit('mensajes', mensajes);
+      });
+  })
+
+});

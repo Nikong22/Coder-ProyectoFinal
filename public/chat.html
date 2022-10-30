@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/index.js"></script>
+    <style>
+      body {
+        margin: 1em;
+        background-image: url("https://img.freepik.com/vector-gratis/fondo-piedra-trazos-dorados_125540-130.jpg?w=826&t=st=1666573713~exp=1666574313~hmac=8b0573ff139c1fd3ff64f996e3df86b86f96d57584043ce6c0d82ca8862ff5dd");
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      h1,
+      h4,
+      h2 {
+        color: #373b3e;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Chat de consultas:</h1>
+    <hr />
+    <div id="mensajes"></div>
+    <br />
+    <form onsubmit="return envioMensaje(this)">
+      <input type="hidden" id="username" />
+      <input type="text" placeholder="Su mensaje..." id="mensaje" />
+      <input type="submit" class="btn btn-primary" value="Enviar" />
+    </form>
+    <br />
+    <hr />
+    <br />
+    <a
+      style="
+        background-color: #373b3e;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        text-decoration: none;
+      "
+      href="/chatprivate.html"
+    >
+      CHAT PRIVADO</a
+    >
+  </body>
+</html>

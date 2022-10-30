@@ -58,12 +58,13 @@ function enviar() {
 };
 
 
-socket.on('mensajes', (data, cantAntes, cantNorm) => {
-    console.log(data);
-    console.log(cantAntes);
-    console.log(cantNorm);
-    document.getElementById('compresion').innerHTML = `${Math.trunc((1 - (cantNorm / cantAntes)) * 100)} %`;
+socket.on('mensajes', (data) => {
     render(data);
+    traerMisMensajes()
+});
+
+socket.on('mis_mensajes', (data) => {
+    render_mis_mensajes(data);
 });
 
 let render = (data) => {
@@ -78,21 +79,50 @@ let render = (data) => {
     document.getElementById('mensajes').innerHTML = html
 }
 
+let render_mis_mensajes = (data) => {
+    let html =
+        data.map((m) => `
+    <div class="fila">
+        <strong style="color: blue;">${m.autor}</strong>
+        <span style="color: brown;">[${m.fecha}]:</span>
+        <em style="color: green;">${m.texto}</em>
+    </div>
+    `).join(' ');
+    document.getElementById('mis_mensajes').innerHTML = html
+}
+
+function getCookie(cname) {
+    let name = cname + "=";
+    let cookieValue = document.cookie
+    let ca = document.cookie.split(';');
+    for(let i = 0; i < ca.length; i++) {
+      let c = ca[i];
+      while (c.charAt(0) == ' ') {
+        c = c.substring(1);
+      }
+      if (c.indexOf(name) == 0) {
+        return decodeURIComponent(c.substring(name.length, c.length));
+      }
+    }
+    return "";
+}
+
+window.onload = function() {
+    document.getElementById('username').value = getCookie('username')
+    traerMisMensajes()
+};
+
 function envioMensaje() {
-    if (document.getElementById('email').value == '') {
-        alert('email obligatorio');
-        return false;
-    }
-    let email = document.getElementById('email').value;
-    
-    const autor = {
-        email: email,
-    }
+    const autor = document.getElementById('username').value
     let fecha = new Date();
     fecha = fecha.getUTCFullYear() + "-" + (fecha.getUTCMonth() + 1) + "-" + fecha.getUTCDate() + " " + fecha.getUTCHours() + ":" + fecha.getUTCMinutes() + ":" + fecha.getUTCSeconds();
-    console.log(fecha);
     let texto = document.getElementById('mensaje').value;
-    console.log({autor, fecha, texto});
     socket.emit('nuevo', { autor, fecha, texto });
+    return false;
+}
+
+function traerMisMensajes() {
+    const autor = document.getElementById('username').value
+    socket.emit('mis_mensajes', { autor });
     return false;
 }
