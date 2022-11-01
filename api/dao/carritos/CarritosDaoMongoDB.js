@@ -2,6 +2,20 @@ const CarritoDB = require('../../../models/cartmongo');
 const OrdenDB = require('../../../models/ordenes');
 const logger = require('../../../logger');
 
+class Funciones {
+  getSiguienteId = (orders) => {
+      let ultimoId = 0;
+      orders.forEach((order) => {
+          if (order.id > ultimoId) {
+              ultimoId = order.id;
+          }
+      });
+      return ++ultimoId;
+  };
+}
+
+const funciones = new Funciones();
+
 let CarritosDaoMongoDB = class CarritosDaoMongoDB {
 
   crearCarrito = async (req, res) => {
@@ -36,9 +50,8 @@ let CarritosDaoMongoDB = class CarritosDaoMongoDB {
     return carrito[0]
   }
 
-  finalizar = async (req, res) => {
-    const { id_carrito } = req.params;
-    CarritoDB.updateOne({ "_id": id_carrito }, { 'estado': 0 })
+  finalizar = async (carrito) => {
+    CarritoDB.updateOne({ "_id": carrito._id.toString() }, { 'estado': 0 })
       .then((update) => {
         return update
       })
@@ -244,26 +257,34 @@ let CarritosDaoMongoDB = class CarritosDaoMongoDB {
   addressCarrito = async (req, res) => {
     const user_id = req.user._id.toString()
     let carrito = await
-      CarritoDB.find({ "user_id": user_id, "estado": 1 }).lean()
+      CarritoDB.findOne({ "user_id": user_id, "estado": 1 }).lean()
         .then((carrito) => {
           return carrito
         })
     let { address, number } = req.body;
-    CarritoDB.updateOne({ "_id": carrito._id }, { 'address': address, 'number': number })
+    await CarritoDB.updateOne({ "_id": carrito._id.toString() }, { 'address': address, 'number': number })
       .then((update) => {
         return update
       })
+    return await CarritoDB.findOne({ "_id": carrito._id.toString() }).lean()
+        .then((carrito) => {
+          return carrito
+        })
   }
 
   listOrders = async (req, res) => {
     const user_id = req.user._id.toString()
-    let carrito = await
-      CarritoDB.find({ "user_id": user_id}, {'description': description, 'price':price}).lean()
-        .then((carrito) => {
-          return carrito
-        })
-        return carrito
+    let orders = new OrdenDB({
+      id:  funciones.getSiguienteId,
+      user_id: user_id,
+      fecha: new Date(),
+      productos: productosMostrar,
+      estado: 'generada',
+      email: username,
+    })
+    return orders
   }
 }
+
 
 module.exports = CarritosDaoMongoDB

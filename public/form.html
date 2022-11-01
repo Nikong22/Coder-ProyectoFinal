@@ -16,6 +16,7 @@
   margin: 1em;
         }
     </style>
+
     <div style="width: 400px;
     background: #24303c;
     padding: 30px;
@@ -31,8 +32,9 @@
             <input type="text" id="address" name="address"><br><br>
             <label for="address">Numero:</label>
             <input type="number" id="number" name="number"><br><br>
-            <button onclick="location.href='/api/finalizar_compra/{{carrito._id}}'" class="btn btn-dark">Finalizar Compra</button>
+            <input type="submit" value="Finalizar compra">
         </form>
-    </div>    
+        
+    </div> 
 </body>
 </html>

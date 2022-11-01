@@ -60,9 +60,12 @@ let ProductosDaoMongoDB = class ProductosDaoMongoDB {
       return null
     }
     let { name, price, description, category, code, thumbnail, stock } = req.body;
+    console.log(req.body)
+
     const update = await
       ProductoDB.updateOne({ "_id": id }, { 'name': name, 'price': price, 'thumbnail': thumbnail, 'description': description, 'category' : category, 'code': code, 'stock': stock })
         .then((update) => {
+          console.log(update)
           return update
         })
     return update

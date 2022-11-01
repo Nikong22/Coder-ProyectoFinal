@@ -57,7 +57,7 @@ router.post("/productos", checkAuthentication, function (req, res) {
   res.send("Producto Añadido");
 });
 
-router.put("/productos/:id", checkAuthentication, async (req, res) => {
+router.put("/productos/:id",  async (req, res) => {
   const update = await productosDao.actualizarProducto(req);
   if (update)
     res.send("Producto actualizado");
@@ -65,7 +65,7 @@ router.put("/productos/:id", checkAuthentication, async (req, res) => {
     res.send("No existe el producto.");
 });
 
-router.delete("/productos/:id", checkAuthentication, async (req, res) => {
+router.delete("/productos/:id", async (req, res) => {
   const deleted = await
     productosDao.borrarProducto(req);
   if (deleted)

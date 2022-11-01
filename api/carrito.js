@@ -63,37 +63,32 @@ router.get("/carrito/:id_carrito", async (req, res) => {//lista los productos de
 });
 
 router.post("/address", checkAuthentication, async (req, res) => {//agregar campos 
-  const update = await carritosDao.addressCarrito(req)
-  res.json(update);
-  res.redirect('/api/productos');
-});
-
-router.get("/finalizar_compra/:id_carrito", async (req, res) => { //boton manda email, wsp, sms
-  const carrito = await carritosDao.getCarrito(req, res)
-  let tieneDatos;
+  const carrito = await carritosDao.addressCarrito(req)
+  
   const productos = JSON.parse(carrito.productos)
   if (productos.length > 0) {
     tieneDatos = true
   } else {
     tieneDatos = false
   }
-  carritosDao.finalizar(req, res)
+  carritosDao.finalizar(carrito)
+
   //WSP
 
-  const accountSid = 'AC14764d5cd5e57cf1354d44f8d9fd77d0'
-  const authToken = 'c6064ad58e7f61b378034ba200d5883e'
+  const accountSid = 'AC0728456364773cd2dcbbdffe3b2815bc'
+  const authToken = '094ab180ed43a39a60f48f19a06fa90f'
 
-  let contenido = 'Has finalizado la compra. Tus datos: ' + carrito.address + carrito.number + '\r\n Tu lista de productos: \r\n'
-  let productosMostrar = []
+  let contenido = 'Has finalizado la compra. Tu lista de productos: \r\n'
+   let productosMostrar = []
   productos.forEach((producto) => {
     const index = productosMostrar.findIndex((prod) => prod._id == producto._id);
-    if (index >= 0) {
+    if(index >= 0){
       productosMostrar[index].cantidad = productosMostrar[index].cantidad + 1
-    } else {
+    }else{
       productosMostrar.push(producto)
-      productosMostrar[productosMostrar.length - 1].cantidad = 1
+      productosMostrar[productosMostrar.length-1].cantidad = 1
     }
-  });
+  });  
   productosMostrar.forEach((producto) => {
     contenido += producto.name + ' $' + producto.price + ' Cant.:' + producto.cantidad + ' ' + '\r\n'
   });
@@ -103,7 +98,7 @@ router.get("/finalizar_compra/:id_carrito", async (req, res) => { //boton manda 
     const message = await client.messages.create({
       body: contenido,
       from: 'whatsapp:+14245411354',
-      to: 'whatsapp:+5491134047670'
+      to: 'whatsapp:+5491160236500'
     })
     console.log(message)
     logger.info(message);
@@ -114,54 +109,78 @@ router.get("/finalizar_compra/:id_carrito", async (req, res) => { //boton manda 
 
   // SMS
 
-  const accountSidsms = 'AC3b31e13c3b94f9ac09e61fea944c5e64'
-  const authTokensms = 'f0796299c4ac1b23a62aefe47b412a74'
+  // const accountSidsms = 'AC60b9bbe54e286cf20f79ad601f382c2d'
+  // const authTokensms = '0bb6f59d969d06b30e5cd44e80c5644a'
 
-  let content = 'Has finalizado la compra. Tu lista de productos: \r\n'
-  productos.forEach((producto) => {
-    content += producto.name + ' $' + producto.price + ' ' + '\r\n'
-  });
+  // let content = 'Has finalizado la compra. Tu lista de productos: \r\n'
+  // productosMostrar = []
+  // productos.forEach((producto) => {
+  //   const index = productosMostrar.findIndex((prod) => prod._id == producto._id);
+  //   if(index >= 0){
+  //     productosMostrar[index].cantidad = productosMostrar[index].cantidad + 1
+  //   }else{
+  //     productosMostrar.push(producto)
+  //     productosMostrar[productosMostrar.length-1].cantidad = 1
+  //   }
+  // });  
+  // productosMostrar.forEach((producto) => {
+  //   content += producto.name + ' $' + producto.price + ' Cant.:' + producto.cantidad + ' ' + '\r\n'
+  // });
+  // console.log(productosMostrar)
 
-  const cliente = twilio(accountSidsms, authTokensms)
+  // const cliente = twilio(accountSidsms, authTokensms)
 
-  try {
-    const message = await cliente.messages.create({
-      body: content,
-      from: '+19513570609',
-      to: '+541137839891'
-    })
-    console.log(message)
-    logger.info(message);
-  } catch (error) {
-    console.log(error)
-    logger.error(error);
-  }
+  // try {
+  //   const message = await cliente.messages.create({
+  //     body: content,
+  //     from: '+17208066253',
+  //     to: '+541133298803'
+  //   })
+  //   console.log(message)
+  //   logger.info(message);
+  // } catch (error) {
+  //   console.log(error)
+  //   logger.error(error);
+  // }
   //   //GMAIL
-  //   const transport = nodemailer.createTransport({
-  //     service: 'gmail',
-  //     port: 587,
-  //     auth: {
-  //       user: 'nico.alejandro20@gmail.com',
-  //       pass: 'elfsrazyfzdpsfin'
-  //     }
-  //   });
+    const transport = nodemailer.createTransport({
+      service: 'gmail',
+      port: 587,
+      auth: {
+        user: 'nico.alejandro20@gmail.com',
+        pass: 'elfsrazyfzdpsfin'
+        // pass: process.env.GMAIL_PWD
+      }
+    });
 
-  //   let contents = 'Has finalizado la compra. Tu lista de productos: \r\n'
-  //   productos.forEach((producto) => {
-  //     contents += producto.name + ' $' + producto.price + ' ' + '\r\n'
-  //   });
+    let contents = 'Has finalizado la compra. Tu lista de productos: \r\n'
+    // productosMostrar = []
+  // productos.forEach((producto) => {
+  //   const index = productosMostrar.findIndex((prod) => prod._id == producto._id);
+  //   if(index >= 0){
+  //     productosMostrar[index].cantidad = productosMostrar[index].cantidad + 1
+  //   }else{
+  //     productosMostrar.push(producto)
+  //     productosMostrar[productosMostrar.length-1].cantidad = 1
+  //   }
+  // });  
+  // productosMostrar.forEach((producto) => {
+  //   contents += producto.name + ' $' + producto.price + ' Cant.:' + producto.cantidad + ' ' + '\r\n'
+  // });
+  // console.log(productosMostrar)
 
-  //   transport.sendMail({
-  //     from: 'Nico <nico.alejandro20@gmail.com>',
-  //     to: 'nico.alejandro20@gmail.com',
-  //     html: contents,
-  //     subject: 'Lista de productos comprados',
-  //   }).then((result) => {
-  //     console.log(result);
-  //     logger.info(result);
-  //   }).catch(e => {
-  //     logger.error(e)
-  //   });
+    transport.sendMail({
+      from: 'Nico <nico.alejandro20@gmail.com>',
+      to: 'nico.alejandro20@gmail.com',
+      html: contents,
+      subject: 'Lista de productos comprados',
+    }).then((result) => {
+      console.log(result);
+      logger.info(result);
+    }).catch(e => {
+      logger.error(e)
+    });
+    res.redirect('/')
 });
 
 router.post("/carrito/:id_carrito/productos/:id_producto", async (req, res) => {//agrega productos al carrito postman
@@ -207,7 +226,6 @@ router.get("/ordenes", async (req, res) => {
     } else {
       tieneDatos = false
     }
-    res.json(carrito);
 })
 
 
