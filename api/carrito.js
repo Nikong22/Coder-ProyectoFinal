@@ -91,82 +91,82 @@ router.post("/address", checkAuthentication, async (req, res) => {//agregar camp
 
   //WSP
 
-  // const accountSid = process.env.ACCOUNT_SID;
-  // const authToken = process.env.AUTH_TOKEN;
+  const accountSid = process.env.ACCOUNT_SID;
+  const authToken = process.env.AUTH_TOKEN;
 
 
-  // let contenido = 'Has finalizado la compra. Tu lista de productos: \r\n'
+  let contenido = 'Has finalizado la compra. Tu lista de productos: \r\n'
   
-  // productosMostrar.forEach((producto) => {
-  //   contenido += producto.name + ' $' + producto.price + ' Cant.:' + producto.cantidad + ' ' + '\r\n'
-  // });
+  productosMostrar.forEach((producto) => {
+    contenido += producto.name + ' $' + producto.price + ' Cant.:' + producto.cantidad + ' ' + '\r\n'
+  });
 
-  // const client = twilio(accountSid, authToken)
-  // try {
-  //   const message = await client.messages.create({
-  //     body: contenido,
-  //     from: process.env.FROM_WSP,
-  //     to: process.env.TO_WSP
-  //   })
-  //   console.log(message)
-  //   logger.info(message);
-  // } catch (error) {
-  //   console.log(error)
-  //   logger.error(error);
-  // };
+  const client = twilio(accountSid, authToken)
+  try {
+    const message = await client.messages.create({
+      body: contenido,
+      from: process.env.FROM_WSP,
+      to: process.env.TO_WSP
+    })
+    console.log(message)
+    logger.info(message);
+  } catch (error) {
+    console.log(error)
+    logger.error(error);
+  };
 
   // // SMS
 
-  // const accountSidsms = process.env.ACCOUNT_SIDSMS
-  // const authTokensms = process.env.AUTH_TOKENSMS
+  const accountSidsms = process.env.ACCOUNT_SIDSMS
+  const authTokensms = process.env.AUTH_TOKENSMS
 
-  // let content = 'Has finalizado la compra. Tu lista de productos: \r\n'
+  let content = 'Has finalizado la compra. Tu lista de productos: \r\n'
 
-  // productosMostrar.forEach((producto) => {
-  //   content += producto.name + ' $' + producto.price + ' Cant.:' + producto.cantidad + ' ' + '\r\n'
-  // });
+  productosMostrar.forEach((producto) => {
+    content += producto.name + ' $' + producto.price + ' Cant.:' + producto.cantidad + ' ' + '\r\n'
+  });
 
-  // const cliente = twilio(accountSidsms, authTokensms)
+  const cliente = twilio(accountSidsms, authTokensms)
 
-  // try {
-  //   const message = await cliente.messages.create({
-  //     body: content,
-  //     from: process.env.FROM_SMS,
-  //     to: process.env.TO_SMS
-  //   })
-  //   console.log(message)
-  //   logger.info(message);
-  // } catch (error) {
-  //   console.log(error)
-  //   logger.error(error);
-  // }
+  try {
+    const message = await cliente.messages.create({
+      body: content,
+      from: process.env.FROM_SMS,
+      to: process.env.TO_SMS
+    })
+    console.log(message)
+    logger.info(message);
+  } catch (error) {
+    console.log(error)
+    logger.error(error);
+  }
 
   // //   //GMAIL
-  //   const transport = nodemailer.createTransport({
-  //     service: 'gmail',
-  //     port: 587,
-  //     auth: {
-  //       user: process.env.USER_GML,
-  //       pass: process.env.PASS_GML
-  //     }
-  //   });
+    const transport = nodemailer.createTransport({
+      service: 'gmail',
+      port: 587,
+      auth: {
+        user: process.env.USER_GML,
+        pass: process.env.PASS_GML
+      }
+    });
 
-  //   let contents = 'Has finalizado la compra. Tu lista de productos: \r\n'
-  // productosMostrar.forEach((producto) => {
-  //   contents += producto.name + ' $' + producto.price + ' Cant.:' + producto.cantidad + ' ' + '\r\n'
-  // });
+    let contents = 'Has finalizado la compra. Tu lista de productos: \r\n'
+  productosMostrar.forEach((producto) => {
+    contents += producto.name + ' $' + producto.price + ' Cant.:' + producto.cantidad + ' ' + '\r\n'
+  });
 
-  //   transport.sendMail({
-  //     from: process.env.FROM_GML,
-  //     to: process.env.TO_GML,
-  //     html: contents,
-  //     subject: 'Lista de productos comprados',
-  //   }).then((result) => {
-  //     console.log(result);
-  //     logger.info(result);
-  //   }).catch(e => {
-  //     logger.error(e)
-  //   });
+    transport.sendMail({
+      from: process.env.FROM_GML,
+      to: process.env.TO_GML,
+      html: contents,
+      subject: 'Lista de productos comprados',
+    }).then((result) => {
+      console.log(result);
+      logger.info(result);
+    }).catch(e => {
+      logger.error(e)
+    });
     res.redirect('/api/ordenes')
 });
 
