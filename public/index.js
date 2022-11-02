@@ -76,6 +76,7 @@ let render = (data) => {
         <em style="color: green;">${m.texto}</em>
     </div>
     `).join(' ');
+    if(document.getElementById('mensajes') != undefined)
     document.getElementById('mensajes').innerHTML = html
 }
 
@@ -88,7 +89,8 @@ let render_mis_mensajes = (data) => {
         <em style="color: green;">${m.texto}</em>
     </div>
     `).join(' ');
-    document.getElementById('mis_mensajes').innerHTML = html
+    if(document.getElementById('mis_mensajes') != undefined)
+        document.getElementById('mis_mensajes').innerHTML = html
 }
 
 function getCookie(cname) {

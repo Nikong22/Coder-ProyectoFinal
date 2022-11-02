@@ -1,16 +1,17 @@
 const CarritoDB = require('../../../models/cartmongo');
 const OrdenDB = require('../../../models/ordenes');
 const logger = require('../../../logger');
+const User = require('../../../models/users')
 
 class Funciones {
   getSiguienteId = (orders) => {
-      let ultimoId = 0;
-      orders.forEach((order) => {
-          if (order.id > ultimoId) {
-              ultimoId = order.id;
-          }
-      });
-      return ++ultimoId;
+    let ultimoId = 0;
+    orders.forEach((order) => {
+      if (order.numOrder > ultimoId) {
+        ultimoId = order.numOrder;
+      }
+    });
+    return ++ultimoId;
   };
 }
 
@@ -19,7 +20,19 @@ const funciones = new Funciones();
 let CarritosDaoMongoDB = class CarritosDaoMongoDB {
 
   crearCarrito = async (req, res) => {
-    const user_id = req.user._id.toString()
+
+    let user_id
+    if(req.user){
+      user_id = req.user._id.toString()
+    }else{
+      let username = req.cookies.username
+      let user = await
+      User.find({ "username": username }).lean()
+        .then((user) => {
+          return user
+        })
+      user_id = user._id.toString()
+    }
     let carrito = await
       CarritoDB.find({ "user_id": user_id, "estado": 1 }).lean()
         .then((carrito) => {
@@ -267,22 +280,59 @@ let CarritosDaoMongoDB = class CarritosDaoMongoDB {
         return update
       })
     return await CarritoDB.findOne({ "_id": carrito._id.toString() }).lean()
-        .then((carrito) => {
-          return carrito
+      .then((carrito) => {
+        return carrito
+      })
+  }
+
+  generarOrdenes = async (carrito, productosMostrar, username) => {
+    const user_id = carrito.user_id
+    let orders = await
+      OrdenDB.find({ 'user_id': user_id }).lean()
+        .then((orders) => {
+          return orders
         })
+
+    let fecha = new Date();
+    fecha = fecha.getUTCFullYear() + "-" + (fecha.getUTCMonth() + 1) + "-" + fecha.getUTCDate() + " " + fecha.getUTCHours() + ":" + fecha.getUTCMinutes()
+    let order = {
+      numOrder: funciones.getSiguienteId(orders),
+      user_id: carrito.user_id,
+      fecha: fecha,
+      productos: JSON.stringify(productosMostrar),
+      estado: 'generada',
+      email: username,
+    }
+    
+    return await OrdenDB.insertMany(order)
+          .then(function (result) {
+            // console.log(result)
+            logger.info(result)
+            return result
+          })
+
   }
 
   listOrders = async (req, res) => {
-    const user_id = req.user._id.toString()
-    let orders = new OrdenDB({
-      id:  funciones.getSiguienteId,
-      user_id: user_id,
-      fecha: new Date(),
-      productos: productosMostrar,
-      estado: 'generada',
-      email: username,
-    })
+    const carrito = await this.getCarrito(req, res)
+    const user_id = carrito.user_id
+    let orders = await
+      OrdenDB.find({'user_id' : user_id}).lean()
+        .then((orders) => {
+          return orders
+        })
     return orders
+  }
+
+  getOrder = async (req, res) => {
+    const { id } = req.params
+    let order = await
+      OrdenDB.findOne({"_id": id }).lean()
+        .then((order) => {
+          return order
+        })
+        console.log(order)
+        return order
   }
 }
 

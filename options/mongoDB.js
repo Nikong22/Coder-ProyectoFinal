@@ -1,7 +1,8 @@
 const mongoose = require('mongoose');
 const logger = require('../logger');
+require('dotenv').config({ path: __dirname + '/.env' })
 
-const URI = 'mongodb+srv://fercamm:fercamm@cluster0.5f3mw6d.mongodb.net/test';
+const URI = process.env.MONGO_URI
 
 const optionsDB = mongoose.connect(URI,
   {

@@ -1,0 +1,79 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script>
+      function getCookie(cname) {
+        let name = cname + "=";
+        let cookieValue = document.cookie
+        let ca = document.cookie.split(';');
+        for(let i = 0; i < ca.length; i++) {
+          let c = ca[i];
+          while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+          }
+          if (c.indexOf(name) == 0) {
+            return decodeURIComponent(c.substring(name.length, c.length));
+          }
+        }
+        return "";
+      }
+
+      console.log("pasa")
+      window.onload = function(e){ 
+        console.log("no pasa")
+        const username = getCookie("username")
+        const avatar = getCookie("avatar")
+        const carrito_id = getCookie("carrito_id")
+        console.log(username)
+        console.log(avatar)
+        console.log(carrito_id)
+        if(username != ""){
+          document.getElementById("div_usuario").style.display='block'
+          document.getElementById("username").innerHTML=username
+          if(avatar != ""){
+            document.getElementById("avatar_img").style.display='block'
+            document.getElementById("avatar_img").src=avatar
+          }
+          if(carrito_id != ""){
+            document.getElementById("carrito").style.display='block'
+            // document.getElementById("carrito_id").href='/api/lista_carrito/'+carrito_id
+          }
+          document.getElementById("login").style.display='none'
+        }else{
+          document.getElementById("div_usuario").style.display='none'
+          document.getElementById("carrito").style.display='none'
+          document.getElementById("username").innerHTML=""
+          document.getElementById("login").style.display='block'
+        }
+      }
+    </script>
+</head>
+<body>
+  <style>
+    body {
+      margin: 1em;
+  background-image: url("https://img.freepik.com/vector-gratis/fondo-piedra-trazos-dorados_125540-130.jpg?w=826&t=st=1666573713~exp=1666574313~hmac=8b0573ff139c1fd3ff64f996e3df86b86f96d57584043ce6c0d82ca8862ff5dd");
+  background-size: cover;
+  background-repeat: no-repeat;
+    }
+    h1,h4,h2{
+    color:  #373b3e;
+    }
+</style>
+
+<div style="background-color: rgba(255, 255, 255, 0.527); display: none;" id="div_usuario">
+<div align="center">  <img style="display: none;" id="avatar_img" src="" height="150" width="150">
+  <h3 style="color: rgb(94, 15, 185); text-align: center;">Bienvenido <span id="username"></span></h3></div>
+  <form action="/upload_avatar" method="post" enctype="multipart/form-data">
+  </form>  
+<button onclick="location.href='/logout'" class="btn btn-secondary btn-lg btn-block">Cerrar sesión</button>
+</div>
+
+<br>
+<h2>Vista de <br> Ordenes</h2><br>
+{{#if listExists}}
+    {{> orders}}
+    <br>
+{{else}}
+    <label class="badge bg-warning">Las ordenes estan vacías</label>
+{{/if}}
+    <br>
+<br>

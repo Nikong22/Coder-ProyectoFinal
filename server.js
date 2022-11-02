@@ -30,7 +30,6 @@ let FORK_O_CLUSTER = 'FORK'
 var server = require("http").createServer(app)
 const io = require('socket.io')(server);
 io.on('connection', (socket) => {
-  //your code here
 });
 
 const numCPUs = require('os').cpus().length
