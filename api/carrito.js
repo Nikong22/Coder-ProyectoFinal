@@ -218,9 +218,7 @@ router.get("/ordenes", async (req, res) => {
 
 router.get("/order/:id", async (req, res) => {
   const order = await carritosDao.getOrder(req, res)
-  const carrito = await carritosDao.getCarrito(req, res)
-  console.log(order)
-  const productos = JSON.parse(carrito.productos)
+  const productos = JSON.parse(order.productos)
   if (productos.length > 0) {
     tieneDatos = true
   } else {
@@ -228,7 +226,5 @@ router.get("/order/:id", async (req, res) => {
   }
   console.log(productos)
   res.render('order', { order: order, productos:productos})
-  // res.json(order);
-
 })
 module.exports = router;
